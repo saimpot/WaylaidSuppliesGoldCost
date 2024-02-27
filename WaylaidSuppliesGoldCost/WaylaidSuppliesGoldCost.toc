@@ -1,0 +1,9 @@
+## Interface: 11501
+## Title: |cffffbf00WaylaidSuppliesGoldCost|r
+## Notes: Shows fill price for Waylaid Supplies items. Supports Auctionator and TradeSkillMaster/
+## Author: Gressil
+## SavedVariables: WaylaidSuppliesHelperDB
+## OptionalDeps: TradeSkillMaster, Auctionator
+## Version: 1.0.0
+
+WaylaidSuppliesGoldCost.lua
