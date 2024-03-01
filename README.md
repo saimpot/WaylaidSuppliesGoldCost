@@ -26,6 +26,9 @@ Welcome to the WaylaidSuppliesGoldCost! This is a World of Warcraft addon (speci
 - The tooltip will display the fill price, potential profit or loss, and reputation information.
 - Make informed decisions on whether to fill a Waylaid Supplies request based on the provided data.
 
+## Changelog 📝
+Keep track of all changes and updates to the addon here to stay informed about new features and improvements! see the CHANGELOG.md file for details.
+
 ## Contributing 🤝
 
 Your contributions are welcome! If you have improvements or bug fixes, feel free to fork the repo and submit a pull request.
@@ -36,7 +39,7 @@ Encountered a bug or have a feature request? Open an issue on the GitHub reposit
 
 ## License 📄
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 ## Acknowledgements 🙏
 
