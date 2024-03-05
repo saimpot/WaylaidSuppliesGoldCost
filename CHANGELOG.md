@@ -1,3 +1,13 @@
+## 1.1.0
+- Updated toc
+- Added detailed tooltips
+  - Which can also be triggered by holding shift, apart from the options
+- Improved colors across the board
+- Added checks for the addons being loaded
+- Improved the gold string method
+- Removed the confusing minus sign on boxes where you actually GAIN  money
+- Added an option page for all the above settings
+
 ### 1.0.2
 - Addition of this changelog
 - Addition of README file
