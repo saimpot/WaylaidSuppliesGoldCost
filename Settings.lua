@@ -62,20 +62,31 @@ local checkboxes = {
         name = "show_rep_gain",
         label = "Show reputation gain",
         description = "show_rep_gain",
-        addonDependency = "nil"
+        addonDependency = "not_needed"
     },
     {
         name = "show_rep_until",
         label = "Show reputation until",
         description = "show_rep_until",
-        addonDependency = "nil"
+        addonDependency = "not_needed"
     },
     {
         name = "detailed_tooltip",
         label = "Show detailed tooltip - Hint: You can also press shift while viewing  an item", description = "detailed_tooltip",
-        addonDependency = "nil"
+        addonDependency = "not_needed"
     },
 }
+
+local function UpdateCheckboxText(tableCheckbox, initializedCheckbox)
+    if tableCheckbox.addonDependency
+            and tableCheckbox.addonDependency ~= "not_needed"
+            and not IsAddOnLoaded(tableCheckbox.addonDependency)
+            and initializedCheckbox:GetChecked() then
+        initializedCheckbox.Text:SetText(string.format("%s - |cffff0000Warning: %s is not loaded|r", tableCheckbox.label, tableCheckbox.addonDependency))
+    else
+        initializedCheckbox.Text:SetText(tableCheckbox.label)
+    end
+end
 
 local previousCheckbox
 for i, cb in ipairs(checkboxes) do
@@ -90,9 +101,12 @@ for i, cb in ipairs(checkboxes) do
             previousCheckbox and -16 or -32
     )
 
-    if cb.addonDependency and IsAddOnLoaded(cb.addonDependency) == false then
-        checkbox.Text:SetText(string.format("%s - |cffff0000Warning: %s is not loaded|r", cb.label, cb.addonDependency))
-    end
+    UpdateCheckboxText(cb, checkbox)
+
+    checkbox:SetScript("OnClick", function(self)
+        optionsPanel.db[cb.name] = self:GetChecked()
+        UpdateCheckboxText(cb, checkbox)  -- Update text when checkbox state changes
+    end)
 
     checkbox:SetChecked(optionsPanel.db[cb.name])
     previousCheckbox = checkbox
@@ -102,6 +116,7 @@ local function UpdateCheckboxStates()
     for _, cb in pairs(checkboxes) do
         local checkbox = _G[addonName .. cb.name]
         checkbox:SetChecked(optionsPanel.db[cb.name])
+        UpdateCheckboxText(cb, checkbox)
     end
 end
 
