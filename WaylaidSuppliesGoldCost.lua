@@ -8,6 +8,18 @@ local GOLD_TEXT = "|cffffd70ag|r"
 local SILVER_TEXT = "|cffc7c7cfs|r"
 local COPPER_TEXT = "|cffeda55fc|r"
 
+local standingNames = {
+    ["Unknown"] = 0,
+    ["Hated"] = 1,
+    ["Hostile"] = 2,
+    ["Unfriendly"] = 3,
+    ["Neutral"] = 4,
+    ["Friendly"] = 5,
+    ["Honored"] = 6,
+    ["Revered"] = 7,
+    ["Exalted"] = 8,
+}
+
 local WaylaidFactionIDs = {
     ["Alliance"] = 2586,
     ["Horde"] = 2587,
@@ -792,15 +804,19 @@ local function ConvertCurrencyToPrintableString(currency)
 end
 
 local function DeterminePlayerFaction()
-    return UnitFactionGroup("player")
+    local faction = UnitFactionGroup("player")
+
+    return faction
 end
 
 local function GetWaylaidReputationGroupID(playerFaction)
     return WaylaidFactionIDs[playerFaction]
 end
 
-local function GetWaylaidReputationPlayerStanding(waylaidReputationID)
-    local name, description, standingID, bottomValue, topValue, earnedValue, _, _, _, _, _, _, _, _, _, _ = GetFactionInfoByID(waylaidReputationID)
+local function GetWaylaidReputationPlayerStanding()
+    local _, _, standingID, _, _, _, _, _, _, _, _, _, _, _, _, _ = GetFactionInfoByID(GetWaylaidReputationGroupID(DeterminePlayerFaction()))
+
+    return standingID
 end
 
 local function AddEmptyLine(tooltip)
@@ -844,16 +860,29 @@ local function addPriceLine(price, source, quantityRequired, currencyAwarded, to
     DisplayDetailedPricingInformation(tooltip, source, totalPrice, currencyAwarded, priceInfo, priceInfoColor)
 end
 
-local function HandleReputationNumberOnTooltip(reputationAwarded, tooltip)
+local function HandleReputationNumberOnTooltip(reputationAwarded, givesRepUntil, tooltip)
     if reputationAwarded and reputationAwarded > 0 and WaylaidSuppliesGoldCostDB.show_rep_gain then
-        AddColoredLine(tooltip, "  Reputation: ", string.format("+%d", reputationAwarded), COLOR_BLUE, COLOR_WHITE)
+        local repValue = 0
+
+        if GetWaylaidReputationPlayerStanding() <= standingNames[givesRepUntil] then
+            repValue = reputationAwarded
+        end
+
+        AddColoredLine(tooltip, "  Reputation: ", string.format("+%d", repValue), COLOR_BLUE, COLOR_WHITE)
     end
 end
 
 local function HandleReputationUntilOnTooltip(givesRepUntil, tooltip)
     if givesRepUntil and WaylaidSuppliesGoldCostDB.show_rep_until then
-        -- @TODO: Add a function that checks player's current standing against the givesRepUntil, and color either red or green
-        AddColoredLine(tooltip, "  Gives rep until: ", givesRepUntil, COLOR_BLUE, COLOR_WHITE)
+        local playerStanding = GetWaylaidReputationPlayerStanding()
+
+        local color = COLOR_RED
+
+        if playerStanding < standingNames[givesRepUntil] then
+            color = COLOR_GREEN
+        end
+
+        AddColoredLine(tooltip, "  Gives rep until: ", givesRepUntil, COLOR_BLUE, color)
     end
 end
 
@@ -891,7 +920,7 @@ local function UpdateTooltipWithWaylaidInformation(tooltip, name)
         local _, requiredItemID, quantityRequired, reputationAwarded, currencyAwarded, givesRepUntil = unpack(requiredItemInfo)
 
         HandlePricingOnTooltip(requiredItemID, quantityRequired, currencyAwarded, tooltip)
-        HandleReputationNumberOnTooltip(reputationAwarded, tooltip)
+        HandleReputationNumberOnTooltip(reputationAwarded, givesRepUntil, tooltip)
         HandleReputationUntilOnTooltip(givesRepUntil, tooltip)
 
         AddEmptyLine(tooltip)
