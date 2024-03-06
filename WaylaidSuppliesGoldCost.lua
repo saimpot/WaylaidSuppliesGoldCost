@@ -9,8 +9,8 @@ local SILVER_TEXT = "|cffc7c7cfs|r"
 local COPPER_TEXT = "|cffeda55fc|r"
 
 local WaylaidFactionIDs = {
-    ["Alliance"] = { 2586 },
-    ["Horde"] = { 2587 },
+    ["Alliance"] = 2586,
+    ["Horde"] = 2587,
 }
 
 local WaylaidRewardsInfo = {
