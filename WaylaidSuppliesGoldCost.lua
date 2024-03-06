@@ -356,49 +356,49 @@ local WaylaidSuppliesInfo = {
         211831,
         2316,
         2,
-        WaylaidRewardsInfo[9]["reputationAwarded"],
-        WaylaidRewardsInfo[9]["currencyAwarded"],
-        WaylaidRewardsInfo[9]["givesRepUntil"]
+        WaylaidRewardsInfo[22]["reputationAwarded"],
+        WaylaidRewardsInfo[22]["currencyAwarded"],
+        WaylaidRewardsInfo[22]["givesRepUntil"]
     },
     ["Waylaid Supplies: Gray Woolen Shirts"] = {
         211833,
         2587,
         4,
-        WaylaidRewardsInfo[9]["reputationAwarded"],
-        WaylaidRewardsInfo[9]["currencyAwarded"],
-        WaylaidRewardsInfo[9]["givesRepUntil"]
+        WaylaidRewardsInfo[22]["reputationAwarded"],
+        WaylaidRewardsInfo[22]["currencyAwarded"],
+        WaylaidRewardsInfo[22]["givesRepUntil"]
     },
     ["Waylaid Supplies: Lesser Mana Potions"] = {
         211824,
         3385,
         20,
-        WaylaidRewardsInfo[9]["reputationAwarded"],
-        WaylaidRewardsInfo[9]["currencyAwarded"],
-        WaylaidRewardsInfo[9]["givesRepUntil"]
+        WaylaidRewardsInfo[22]["reputationAwarded"],
+        WaylaidRewardsInfo[22]["currencyAwarded"],
+        WaylaidRewardsInfo[22]["givesRepUntil"]
     },
     ["Waylaid Supplies: Minor Mana Oil"] = {
         211828,
         20745,
         2,
-        WaylaidRewardsInfo[9]["reputationAwarded"],
-        WaylaidRewardsInfo[9]["currencyAwarded"],
-        WaylaidRewardsInfo[9]["givesRepUntil"]
+        WaylaidRewardsInfo[22]["reputationAwarded"],
+        WaylaidRewardsInfo[22]["currencyAwarded"],
+        WaylaidRewardsInfo[22]["givesRepUntil"]
     },
     ["Waylaid Supplies: Rough Bronze Boots"] = {
         211825,
         6350,
         3,
-        WaylaidRewardsInfo[9]["reputationAwarded"],
-        WaylaidRewardsInfo[9]["currencyAwarded"],
-        WaylaidRewardsInfo[9]["givesRepUntil"]
+        WaylaidRewardsInfo[22]["reputationAwarded"],
+        WaylaidRewardsInfo[22]["currencyAwarded"],
+        WaylaidRewardsInfo[22]["givesRepUntil"]
     },
     ["Waylaid Supplies: Small Bronze Bombs"] = {
         211829,
         4374,
         12,
-        WaylaidRewardsInfo[9]["reputationAwarded"],
-        WaylaidRewardsInfo[9]["currencyAwarded"],
-        WaylaidRewardsInfo[9]["givesRepUntil"]
+        WaylaidRewardsInfo[22]["reputationAwarded"],
+        WaylaidRewardsInfo[22]["currencyAwarded"],
+        WaylaidRewardsInfo[22]["givesRepUntil"]
     },
 
     -- Level 25
