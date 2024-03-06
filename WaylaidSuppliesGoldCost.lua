@@ -344,7 +344,7 @@ local WaylaidSuppliesInfo = {
     },
     ["Waylaid Supplies: Smoked Sagefish"] = {
         211835,
-        25704,
+        21072,
         15,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
