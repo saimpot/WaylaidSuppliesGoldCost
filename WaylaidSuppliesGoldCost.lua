@@ -31,41 +31,57 @@ local WaylaidRewardsInfo = {
         ["currencyAwarded"] = 0,
         ["givesRepUntil"] = "Unknown",
     },
+
+    -- https://www.wowhead.com/classic/quest=78612
     [9] = {
         ["reputationAwarded"] = 300,
         ["currencyAwarded"] = 600,
         ["givesRepUntil"] = "Friendly",
     },
+
+    -- https://www.wowhead.com/classic/quest=78872
     [12] = {
         ["reputationAwarded"] = 450,
         ["currencyAwarded"] = 1500,
         ["givesRepUntil"] = "Friendly",
     },
+
+    -- https://www.wowhead.com/classic/quest=79101
     [18] = {
         ["reputationAwarded"] = 500,
         ["currencyAwarded"] = 1500,
         ["givesRepUntil"] = "Honored",
     },
+
+    -- https://www.wowhead.com/classic/quest=79102
     [22] = {
         ["reputationAwarded"] = 650,
         ["currencyAwarded"] = 2000,
         ["givesRepUntil"] = "Honored",
     },
+
+    -- https://www.wowhead.com/classic/quest=79103
     [25] = {
         ["reputationAwarded"] = 800,
         ["currencyAwarded"] = 3000,
         ["givesRepUntil"] = "Honored",
     },
+
+    -- https://www.wowhead.com/classic/quest=80307
     [28] = {
         ["reputationAwarded"] = 700,
         ["currencyAwarded"] = 20000,
         ["givesRepUntil"] = "Revered",
     },
+
+    -- https://www.wowhead.com/classic/quest=80308
     [35] = {
         ["reputationAwarded"] = 850,
         ["currencyAwarded"] = 55000,
         ["givesRepUntil"] = "Revered",
     },
+
+    -- https://www.wowhead.com/classic/quest=80309
     [40] = {
         ["reputationAwarded"] = 1000,
         ["currencyAwarded"] = 120000,
