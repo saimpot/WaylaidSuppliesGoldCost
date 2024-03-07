@@ -33,22 +33,22 @@ local WaylaidRewardsInfo = {
     },
     [9] = {
         ["reputationAwarded"] = 300,
-        ["currencyAwarded"] = 3000,
+        ["currencyAwarded"] = 600,
         ["givesRepUntil"] = "Friendly",
     },
     [12] = {
         ["reputationAwarded"] = 450,
-        ["currencyAwarded"] = 3000,
+        ["currencyAwarded"] = 1500,
         ["givesRepUntil"] = "Friendly",
     },
     [18] = {
         ["reputationAwarded"] = 500,
-        ["currencyAwarded"] = 3000,
+        ["currencyAwarded"] = 1500,
         ["givesRepUntil"] = "Honored",
     },
     [22] = {
         ["reputationAwarded"] = 650,
-        ["currencyAwarded"] = 3000,
+        ["currencyAwarded"] = 2000,
         ["givesRepUntil"] = "Honored",
     },
     [25] = {
