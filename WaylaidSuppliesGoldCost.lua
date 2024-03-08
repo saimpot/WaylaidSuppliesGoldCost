@@ -152,32 +152,32 @@ local WaylaidSuppliesInfo = {
     },
     ["Waylaid Supplies: Rough Stone"] = {
         211933,
-        0,
-        0,
+        2835,
+        10,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     ["Waylaid Supplies: Brilliant Smallfish"] = {
         211331,
-        0,
-        0,
+        6290,
+        20,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     ["Waylaid Supplies: Silverleaf"] = {
         211317,
-        0,
-        0,
+        765,
+        20,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     ["Waylaid Supplies: Heavy Linen Bandages"] = {
         211332,
-        0,
-        0,
+        2581,
+        10,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
@@ -250,8 +250,8 @@ local WaylaidSuppliesInfo = {
     },
     ["Waylaid Supplies: Healing Potions"] = {
         211934,
-        0,
-        0,
+        929,
+        10,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
