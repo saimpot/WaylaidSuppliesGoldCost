@@ -1,3 +1,24 @@
+### 1.2.4
+- Add detection for human racial ability
+
+### 1.2.3
+- Bug fixes
+
+### 1.2.1
+- Corrected the currency values for boxes in the brackets 9 to 22
+
+## 1.2.0
+- Added the functionality to the addon to recognize if the player gets rep or not from the box
+- Refactored WaylaidFactionIDs
+- Fix itemID for smoked sagefish
+- Update addon README for better clarity and updated information.
+
+### 1.1.2
+- Update checkbox text when checkbox state changes.
+
+### 1.1.1
+- Fixed the rewards for the items in the level bracket 22
+
 ## 1.1.0
 - Updated toc
 - Added detailed tooltips

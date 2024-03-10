@@ -4,7 +4,7 @@
 ## Author: Gressil
 ## SavedVariables: WaylaidSuppliesGoldCostDB
 ## OptionalDeps: TradeSkillMaster, Auctionator
-## Version: 1.2.3
+## Version: 1.2.4
 
 Settings.lua
 WaylaidSuppliesGoldCost.lua

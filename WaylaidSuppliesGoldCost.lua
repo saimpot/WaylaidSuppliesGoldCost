@@ -8,6 +8,9 @@ local GOLD_TEXT = "|cffffd70ag|r"
 local SILVER_TEXT = "|cffc7c7cfs|r"
 local COPPER_TEXT = "|cffeda55fc|r"
 
+local HUMAN_RACE_ID = 1
+local HUMAN_RACE_MULTIPLIER = 1.1
+
 local standingNames = {
     ["Unknown"] = 0,
     ["Hated"] = 1,
@@ -744,6 +747,16 @@ local WaylaidSuppliesInfo = {
     -- Add more entries here as needed
 }
 
+local function IsPlayerRaceHuman()
+    local _, _, playerRaceID = UnitRace("player")
+
+    if playerRaceID == HUMAN_RACE_ID then
+        return true
+    end
+
+    return false
+end
+
 local function GetWaylaidSuppliesInfo(waylaidItemName)
     return WaylaidSuppliesInfo[waylaidItemName]
 end
@@ -882,6 +895,10 @@ local function HandleReputationNumberOnTooltip(reputationAwarded, givesRepUntil,
 
         if GetWaylaidReputationPlayerStanding() <= standingNames[givesRepUntil] then
             repValue = reputationAwarded
+
+            if IsPlayerRaceHuman() then
+                repValue = repValue * HUMAN_RACE_MULTIPLIER
+            end
         end
 
         AddColoredLine(tooltip, "  Reputation: ", string.format("+%d", repValue), COLOR_BLUE, COLOR_WHITE)
