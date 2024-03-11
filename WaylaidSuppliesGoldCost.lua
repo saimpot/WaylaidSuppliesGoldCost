@@ -1,5 +1,7 @@
 WaylaidSuppliesGoldCost = {}
 
+local MAX_LEVEL = 40
+
 local COLOR_RED = "|cffff0000"
 local COLOR_GREEN = "|cff45f248"
 local COLOR_WHITE = "|cffffffff"
@@ -32,6 +34,7 @@ local WaylaidRewardsInfo = {
     ["UNKNOWN"] = {
         ["reputationAwarded"] = 0,
         ["currencyAwarded"] = 0,
+        ["experienceAwarded"] = 0,
         ["givesRepUntil"] = "Unknown",
     },
 
@@ -39,6 +42,7 @@ local WaylaidRewardsInfo = {
     [9] = {
         ["reputationAwarded"] = 300,
         ["currencyAwarded"] = 600,
+        ["experienceAwarded"] = 80,
         ["givesRepUntil"] = "Friendly",
     },
 
@@ -46,6 +50,7 @@ local WaylaidRewardsInfo = {
     [12] = {
         ["reputationAwarded"] = 450,
         ["currencyAwarded"] = 1500,
+        ["experienceAwarded"] = 90,
         ["givesRepUntil"] = "Friendly",
     },
 
@@ -53,6 +58,7 @@ local WaylaidRewardsInfo = {
     [18] = {
         ["reputationAwarded"] = 500,
         ["currencyAwarded"] = 1500,
+        ["experienceAwarded"] = 140,
         ["givesRepUntil"] = "Honored",
     },
 
@@ -60,6 +66,7 @@ local WaylaidRewardsInfo = {
     [22] = {
         ["reputationAwarded"] = 650,
         ["currencyAwarded"] = 2000,
+        ["experienceAwarded"] = 180,
         ["givesRepUntil"] = "Honored",
     },
 
@@ -67,6 +74,7 @@ local WaylaidRewardsInfo = {
     [25] = {
         ["reputationAwarded"] = 800,
         ["currencyAwarded"] = 3000,
+        ["experienceAwarded"] = 200,
         ["givesRepUntil"] = "Honored",
     },
 
@@ -74,6 +82,7 @@ local WaylaidRewardsInfo = {
     [28] = {
         ["reputationAwarded"] = 700,
         ["currencyAwarded"] = 20000,
+        ["experienceAwarded"] = 800,
         ["givesRepUntil"] = "Revered",
     },
 
@@ -81,6 +90,7 @@ local WaylaidRewardsInfo = {
     [35] = {
         ["reputationAwarded"] = 850,
         ["currencyAwarded"] = 55000,
+        ["experienceAwarded"] = 1500,
         ["givesRepUntil"] = "Revered",
     },
 
@@ -88,6 +98,7 @@ local WaylaidRewardsInfo = {
     [40] = {
         ["reputationAwarded"] = 1000,
         ["currencyAwarded"] = 120000,
+        ["experienceAwarded"] = 3450,
         ["givesRepUntil"] = "Revered",
     }
 }
@@ -101,14 +112,16 @@ local WaylaidSuppliesInfo = {
         20,
         WaylaidRewardsInfo["UNKNOWN"]["reputationAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["currencyAwarded"],
+        WaylaidRewardsInfo["UNKNOWN"]["experienceAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["givesRepUntil"]
     },
     -- Waylaid Supplies: Gnomish Rocket Boots
-    [215405]= {
+    [215405] = {
         10724,
         20,
         WaylaidRewardsInfo["UNKNOWN"]["reputationAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["currencyAwarded"],
+        WaylaidRewardsInfo["UNKNOWN"]["experienceAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["givesRepUntil"]
     },
     -- Waylaid Supplies: Goblin Mortars
@@ -117,6 +130,7 @@ local WaylaidSuppliesInfo = {
         20,
         WaylaidRewardsInfo["UNKNOWN"]["reputationAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["currencyAwarded"],
+        WaylaidRewardsInfo["UNKNOWN"]["experienceAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["givesRepUntil"]
     },
     -- Waylaid Supplies: Dusky Belts
@@ -125,6 +139,7 @@ local WaylaidSuppliesInfo = {
         4,
         WaylaidRewardsInfo["UNKNOWN"]["reputationAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["currencyAwarded"],
+        WaylaidRewardsInfo["UNKNOWN"]["experienceAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["givesRepUntil"]
     },
     -- Waylaid Supplies: Shadowskin Gloves
@@ -133,6 +148,7 @@ local WaylaidSuppliesInfo = {
         20,
         WaylaidRewardsInfo["UNKNOWN"]["reputationAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["currencyAwarded"],
+        WaylaidRewardsInfo["UNKNOWN"]["experienceAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["givesRepUntil"]
     },
 
@@ -143,6 +159,7 @@ local WaylaidSuppliesInfo = {
         20,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
+        WaylaidRewardsInfo[9]["experienceAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     -- Waylaid Supplies: Copper Bars
@@ -151,6 +168,7 @@ local WaylaidSuppliesInfo = {
         20,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
+        WaylaidRewardsInfo[9]["experienceAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     -- Waylaid Supplies: Rough Stone
@@ -159,6 +177,7 @@ local WaylaidSuppliesInfo = {
         10,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
+        WaylaidRewardsInfo[9]["experienceAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     -- Waylaid Supplies: Brilliant Smallfish
@@ -167,6 +186,7 @@ local WaylaidSuppliesInfo = {
         20,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
+        WaylaidRewardsInfo[9]["experienceAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     -- Waylaid Supplies: Silverleaf
@@ -175,6 +195,7 @@ local WaylaidSuppliesInfo = {
         20,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
+        WaylaidRewardsInfo[9]["experienceAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     -- Waylaid Supplies: Heavy Linen Bandages
@@ -183,6 +204,7 @@ local WaylaidSuppliesInfo = {
         10,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
+        WaylaidRewardsInfo[9]["experienceAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     -- Waylaid Supplies: Light Leather
@@ -191,6 +213,7 @@ local WaylaidSuppliesInfo = {
         14,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
+        WaylaidRewardsInfo[9]["experienceAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     -- Waylaid Supplies: Herb Baked Eggs
@@ -199,6 +222,7 @@ local WaylaidSuppliesInfo = {
         20,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
+        WaylaidRewardsInfo[9]["experienceAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     -- Waylaid Supplies: Spiced Wolf Meat
@@ -207,6 +231,7 @@ local WaylaidSuppliesInfo = {
         20,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
+        WaylaidRewardsInfo[9]["experienceAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
 
@@ -217,6 +242,7 @@ local WaylaidSuppliesInfo = {
         6,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
+        WaylaidRewardsInfo[12]["experienceAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Brown Linen Robes
@@ -225,6 +251,7 @@ local WaylaidSuppliesInfo = {
         4,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
+        WaylaidRewardsInfo[12]["experienceAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Copper Shortswords
@@ -233,6 +260,7 @@ local WaylaidSuppliesInfo = {
         6,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
+        WaylaidRewardsInfo[12]["experienceAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Embossed Leather Vests
@@ -241,6 +269,7 @@ local WaylaidSuppliesInfo = {
         3,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
+        WaylaidRewardsInfo[12]["experienceAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Handstitched Leather Belts
@@ -249,6 +278,7 @@ local WaylaidSuppliesInfo = {
         5,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
+        WaylaidRewardsInfo[12]["experienceAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Healing Potions
@@ -257,6 +287,7 @@ local WaylaidSuppliesInfo = {
         10,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
+        WaylaidRewardsInfo[12]["experienceAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Lesser Magic Wands
@@ -265,6 +296,7 @@ local WaylaidSuppliesInfo = {
         2,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
+        WaylaidRewardsInfo[12]["experienceAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Minor Healing Potions
@@ -273,6 +305,7 @@ local WaylaidSuppliesInfo = {
         20,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
+        WaylaidRewardsInfo[12]["experienceAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Minor Wizard Oil
@@ -281,6 +314,7 @@ local WaylaidSuppliesInfo = {
         2,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
+        WaylaidRewardsInfo[12]["experienceAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Rough Boomsticks
@@ -289,6 +323,7 @@ local WaylaidSuppliesInfo = {
         3,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
+        WaylaidRewardsInfo[12]["experienceAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Rough Copper Bombs
@@ -297,6 +332,7 @@ local WaylaidSuppliesInfo = {
         12,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
+        WaylaidRewardsInfo[12]["experienceAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Runed Copper Pants
@@ -305,6 +341,7 @@ local WaylaidSuppliesInfo = {
         3,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
+        WaylaidRewardsInfo[12]["experienceAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
 
@@ -315,6 +352,7 @@ local WaylaidSuppliesInfo = {
         12,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
+        WaylaidRewardsInfo[18]["experienceAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
     -- Waylaid Supplies: Silver Bars
@@ -323,6 +361,7 @@ local WaylaidSuppliesInfo = {
         6,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
+        WaylaidRewardsInfo[18]["experienceAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
     -- Waylaid Supplies: Medium Leather
@@ -331,6 +370,7 @@ local WaylaidSuppliesInfo = {
         12,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
+        WaylaidRewardsInfo[18]["experienceAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
     -- Waylaid Supplies: Bruiseweed
@@ -339,6 +379,7 @@ local WaylaidSuppliesInfo = {
         20,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
+        WaylaidRewardsInfo[18]["experienceAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
     -- Waylaid Supplies: Swiftthistle
@@ -347,6 +388,7 @@ local WaylaidSuppliesInfo = {
         20,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
+        WaylaidRewardsInfo[18]["experienceAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
     -- Waylaid Supplies: Smoked Bear Meat
@@ -355,6 +397,7 @@ local WaylaidSuppliesInfo = {
         20,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
+        WaylaidRewardsInfo[18]["experienceAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
     -- Waylaid Supplies: Goblin Deviled Clams
@@ -363,6 +406,7 @@ local WaylaidSuppliesInfo = {
         8,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
+        WaylaidRewardsInfo[18]["experienceAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
     -- Waylaid Supplies: Heavy Wool Bandages
@@ -371,6 +415,7 @@ local WaylaidSuppliesInfo = {
         15,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
+        WaylaidRewardsInfo[18]["experienceAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
     -- Waylaid Supplies: Smoked Sagefish
@@ -379,6 +424,7 @@ local WaylaidSuppliesInfo = {
         15,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
+        WaylaidRewardsInfo[18]["experienceAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
 
@@ -389,6 +435,7 @@ local WaylaidSuppliesInfo = {
         2,
         WaylaidRewardsInfo[22]["reputationAwarded"],
         WaylaidRewardsInfo[22]["currencyAwarded"],
+        WaylaidRewardsInfo[22]["experienceAwarded"],
         WaylaidRewardsInfo[22]["givesRepUntil"]
     },
     -- Waylaid Supplies: Gray Woolen Shirts
@@ -397,6 +444,7 @@ local WaylaidSuppliesInfo = {
         4,
         WaylaidRewardsInfo[22]["reputationAwarded"],
         WaylaidRewardsInfo[22]["currencyAwarded"],
+        WaylaidRewardsInfo[22]["experienceAwarded"],
         WaylaidRewardsInfo[22]["givesRepUntil"]
     },
     -- Waylaid Supplies: Lesser Mana Potions
@@ -405,6 +453,7 @@ local WaylaidSuppliesInfo = {
         20,
         WaylaidRewardsInfo[22]["reputationAwarded"],
         WaylaidRewardsInfo[22]["currencyAwarded"],
+        WaylaidRewardsInfo[22]["experienceAwarded"],
         WaylaidRewardsInfo[22]["givesRepUntil"]
     },
     -- Waylaid Supplies: Minor Mana Oil
@@ -413,6 +462,7 @@ local WaylaidSuppliesInfo = {
         2,
         WaylaidRewardsInfo[22]["reputationAwarded"],
         WaylaidRewardsInfo[22]["currencyAwarded"],
+        WaylaidRewardsInfo[22]["experienceAwarded"],
         WaylaidRewardsInfo[22]["givesRepUntil"]
     },
     -- Waylaid Supplies: Rough Bronze Boots
@@ -421,6 +471,7 @@ local WaylaidSuppliesInfo = {
         3,
         WaylaidRewardsInfo[22]["reputationAwarded"],
         WaylaidRewardsInfo[22]["currencyAwarded"],
+        WaylaidRewardsInfo[22]["experienceAwarded"],
         WaylaidRewardsInfo[22]["givesRepUntil"]
     },
     -- Waylaid Supplies: Small Bronze Bombs
@@ -429,6 +480,7 @@ local WaylaidSuppliesInfo = {
         12,
         WaylaidRewardsInfo[22]["reputationAwarded"],
         WaylaidRewardsInfo[22]["currencyAwarded"],
+        WaylaidRewardsInfo[22]["experienceAwarded"],
         WaylaidRewardsInfo[22]["givesRepUntil"]
     },
 
@@ -439,6 +491,7 @@ local WaylaidSuppliesInfo = {
         2,
         WaylaidRewardsInfo[25]["reputationAwarded"],
         WaylaidRewardsInfo[25]["currencyAwarded"],
+        WaylaidRewardsInfo[25]["experienceAwarded"],
         WaylaidRewardsInfo[25]["givesRepUntil"]
     },
     -- Waylaid Supplies: Elixir of Firepower
@@ -447,6 +500,7 @@ local WaylaidSuppliesInfo = {
         15,
         WaylaidRewardsInfo[25]["reputationAwarded"],
         WaylaidRewardsInfo[25]["currencyAwarded"],
+        WaylaidRewardsInfo[25]["experienceAwarded"],
         WaylaidRewardsInfo[25]["givesRepUntil"]
     },
     -- Waylaid Supplies: Ornate Spyglasses
@@ -455,6 +509,7 @@ local WaylaidSuppliesInfo = {
         2,
         WaylaidRewardsInfo[25]["reputationAwarded"],
         WaylaidRewardsInfo[25]["currencyAwarded"],
+        WaylaidRewardsInfo[25]["experienceAwarded"],
         WaylaidRewardsInfo[25]["givesRepUntil"]
     },
     --["Waylaid Supplies: Pearl-clasped Cloaks"] = {
@@ -463,6 +518,7 @@ local WaylaidSuppliesInfo = {
         3,
         WaylaidRewardsInfo[25]["reputationAwarded"],
         WaylaidRewardsInfo[25]["currencyAwarded"],
+        WaylaidRewardsInfo[25]["experienceAwarded"],
         WaylaidRewardsInfo[25]["givesRepUntil"]
     },
     -- Waylaid Supplies: Runed Silver Rods
@@ -471,6 +527,7 @@ local WaylaidSuppliesInfo = {
         1,
         WaylaidRewardsInfo[25]["reputationAwarded"],
         WaylaidRewardsInfo[25]["currencyAwarded"],
+        WaylaidRewardsInfo[25]["experienceAwarded"],
         WaylaidRewardsInfo[25]["givesRepUntil"]
     },
     -- Waylaid Supplies: Silver Skeleton Keys
@@ -479,6 +536,7 @@ local WaylaidSuppliesInfo = {
         14,
         WaylaidRewardsInfo[25]["reputationAwarded"],
         WaylaidRewardsInfo[25]["currencyAwarded"],
+        WaylaidRewardsInfo[25]["experienceAwarded"],
         WaylaidRewardsInfo[25]["givesRepUntil"]
     },
 
@@ -489,6 +547,7 @@ local WaylaidSuppliesInfo = {
         16,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
+        WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Fire Oil
@@ -497,6 +556,7 @@ local WaylaidSuppliesInfo = {
         10,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
+        WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Formal White Shirts
@@ -505,6 +565,7 @@ local WaylaidSuppliesInfo = {
         3,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
+        WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Heavy Hide
@@ -513,6 +574,7 @@ local WaylaidSuppliesInfo = {
         5,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
+        WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Heavy Silk Bandages
@@ -521,6 +583,7 @@ local WaylaidSuppliesInfo = {
         10,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
+        WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     --["Waylaid Supplies: Khadgar's Whisker"] = {
@@ -529,6 +592,7 @@ local WaylaidSuppliesInfo = {
         10,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
+        WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Mithril Bars
@@ -537,6 +601,7 @@ local WaylaidSuppliesInfo = {
         6,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
+        WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Wintersbite
@@ -545,6 +610,7 @@ local WaylaidSuppliesInfo = {
         8,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
+        WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Purple Lotus
@@ -553,6 +619,7 @@ local WaylaidSuppliesInfo = {
         8,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
+        WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Solid Grinding Stones
@@ -561,6 +628,7 @@ local WaylaidSuppliesInfo = {
         10,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
+        WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Soothing Turtle Bisque
@@ -569,6 +637,7 @@ local WaylaidSuppliesInfo = {
         10,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
+        WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Spider Sausages
@@ -577,6 +646,7 @@ local WaylaidSuppliesInfo = {
         10,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
+        WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Thick Leather
@@ -585,6 +655,7 @@ local WaylaidSuppliesInfo = {
         10,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
+        WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Rockscale Cod
@@ -593,6 +664,7 @@ local WaylaidSuppliesInfo = {
         40,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
+        WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
 
@@ -603,6 +675,7 @@ local WaylaidSuppliesInfo = {
         4,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
+        WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Big Iron Bombs
@@ -611,6 +684,7 @@ local WaylaidSuppliesInfo = {
         8,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
+        WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Compact Harvest Reaper Kits
@@ -619,6 +693,7 @@ local WaylaidSuppliesInfo = {
         2,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
+        WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Crimson Silk Pantaloons
@@ -627,6 +702,7 @@ local WaylaidSuppliesInfo = {
         4,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
+        WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Deadly Scopes
@@ -635,6 +711,7 @@ local WaylaidSuppliesInfo = {
         4,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
+        WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Elixirs of Agility
@@ -643,6 +720,7 @@ local WaylaidSuppliesInfo = {
         12,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
+        WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Frost Leather Cloaks
@@ -651,6 +729,7 @@ local WaylaidSuppliesInfo = {
         3,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
+        WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Gold Bars
@@ -659,6 +738,7 @@ local WaylaidSuppliesInfo = {
         4,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
+        WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Greater Healing Potions
@@ -667,6 +747,7 @@ local WaylaidSuppliesInfo = {
         16,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
+        WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Rich Purple Silk Shirts
@@ -675,6 +756,7 @@ local WaylaidSuppliesInfo = {
         5,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
+        WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Guardian Gloves
@@ -683,6 +765,7 @@ local WaylaidSuppliesInfo = {
         6,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
+        WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Green Iron Bracers
@@ -691,6 +774,7 @@ local WaylaidSuppliesInfo = {
         5,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
+        WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Heavy Mithril Gauntlets
@@ -699,6 +783,7 @@ local WaylaidSuppliesInfo = {
         4,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
+        WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
 
@@ -709,6 +794,7 @@ local WaylaidSuppliesInfo = {
         14,
         WaylaidRewardsInfo[40]["reputationAwarded"],
         WaylaidRewardsInfo[40]["currencyAwarded"],
+        WaylaidRewardsInfo[40]["experienceAwarded"],
         WaylaidRewardsInfo[40]["givesRepUntil"]
     },
     -- Waylaid Supplies: Massive Iron Axes
@@ -717,6 +803,7 @@ local WaylaidSuppliesInfo = {
         2,
         WaylaidRewardsInfo[40]["reputationAwarded"],
         WaylaidRewardsInfo[40]["currencyAwarded"],
+        WaylaidRewardsInfo[40]["experienceAwarded"],
         WaylaidRewardsInfo[40]["givesRepUntil"]
     },
     -- Waylaid Supplies: Mithril Blunderbuss
@@ -725,6 +812,7 @@ local WaylaidSuppliesInfo = {
         2,
         WaylaidRewardsInfo[40]["reputationAwarded"],
         WaylaidRewardsInfo[40]["currencyAwarded"],
+        WaylaidRewardsInfo[40]["experienceAwarded"],
         WaylaidRewardsInfo[40]["givesRepUntil"]
     },
     -- Waylaid Supplies: White Bandit Masks
@@ -733,6 +821,7 @@ local WaylaidSuppliesInfo = {
         4,
         WaylaidRewardsInfo[40]["reputationAwarded"],
         WaylaidRewardsInfo[40]["currencyAwarded"],
+        WaylaidRewardsInfo[40]["experienceAwarded"],
         WaylaidRewardsInfo[40]["givesRepUntil"]
     },
     -- Waylaid Supplies: Turtle Scale Bracers
@@ -741,6 +830,7 @@ local WaylaidSuppliesInfo = {
         3,
         WaylaidRewardsInfo[40]["reputationAwarded"],
         WaylaidRewardsInfo[40]["currencyAwarded"],
+        WaylaidRewardsInfo[40]["experienceAwarded"],
         WaylaidRewardsInfo[40]["givesRepUntil"]
     },
 
@@ -908,14 +998,28 @@ end
 local function HandleReputationUntilOnTooltip(givesRepUntil, tooltip)
     if givesRepUntil and WaylaidSuppliesGoldCostDB.show_rep_until then
         local playerStanding = GetWaylaidReputationPlayerStanding()
-
         local color = COLOR_RED
+        local givesRepUntilText = "No longer gives reputation."
 
         if playerStanding < standingNames[givesRepUntil] then
             color = COLOR_GREEN
+            givesRepUntilText = givesRepUntil
         end
 
-        AddColoredLine(tooltip, "  Gives rep until: ", givesRepUntil, COLOR_BLUE, color)
+        AddColoredLine(tooltip, "  Gives rep until: ", givesRepUntilText, COLOR_BLUE, color)
+    end
+end
+
+local function HandleExperienceNumberOnTooltip(experienceAwarded, tooltip)
+    if experienceAwarded and WaylaidSuppliesGoldCostDB.show_experience_gain then
+        local color = COLOR_GREEN
+        experienceAwarded = "+" .. experienceAwarded
+
+        if UnitLevel("player") == MAX_LEVEL then
+            color = COLOR_RED
+            experienceAwarded = "No longer gives experience."
+        end
+        AddColoredLine(tooltip, "  Experience gain: ", experienceAwarded, COLOR_BLUE, color)
     end
 end
 
@@ -926,23 +1030,22 @@ local function HandlePricingOnTooltip(requiredItemID, quantityRequired, currency
     if WaylaidSuppliesGoldCostDB.use_tsm then
         if IsAddOnLoaded("TradeSkillMaster") then
             addPriceLine(GetTsmPricingInformation(requiredItemID), "Tsm", quantityRequired, currencyAwarded, tooltip)
-            return
+        else
+            AddColoredLine(tooltip, "  Fill Price:", "TradeSkillMaster is not loaded.", COLOR_BLUE, COLOR_RED)
         end
-
-        AddColoredLine(tooltip, "  Fill Price:", "TradeSkillMaster is not loaded.", COLOR_BLUE, COLOR_RED)
     end
 
     if WaylaidSuppliesGoldCostDB.use_auc then
         if IsAddOnLoaded("Auctionator") then
             addPriceLine(GetAuctionatorPricingInformation(requiredItemID), "Auc", quantityRequired, currencyAwarded, tooltip)
-            return
+        else
+            AddColoredLine(tooltip, "  Fill Price:", "Auctionator is not loaded.", COLOR_BLUE, COLOR_RED)
         end
-
-        AddColoredLine(tooltip, "  Fill Price:", "Auctionator is not loaded.", COLOR_BLUE, COLOR_RED)
     end
 
     if not WaylaidSuppliesGoldCostDB.use_tsm and not WaylaidSuppliesGoldCostDB.use_auc then
         AddColoredLine(tooltip, "  Fill Price:", "No pricing module is enabled.", COLOR_BLUE, COLOR_RED)
+        return
     end
 end
 
@@ -950,11 +1053,12 @@ local function UpdateTooltipWithWaylaidInformation(tooltip, itemID)
     local requiredItemInfo = GetWaylaidSuppliesInfo(itemID)
 
     if requiredItemInfo then
-        local requiredItemID, quantityRequired, reputationAwarded, currencyAwarded, givesRepUntil = unpack(requiredItemInfo)
+        local requiredItemID, quantityRequired, reputationAwarded, currencyAwarded, experienceAwarded, givesRepUntil = unpack(requiredItemInfo)
 
         HandlePricingOnTooltip(requiredItemID, quantityRequired, currencyAwarded, tooltip)
         HandleReputationNumberOnTooltip(reputationAwarded, givesRepUntil, tooltip)
         HandleReputationUntilOnTooltip(givesRepUntil, tooltip)
+        HandleExperienceNumberOnTooltip(experienceAwarded, tooltip)
 
         AddEmptyLine(tooltip)
     end

@@ -1,10 +1,11 @@
 local addonName = "WaylaidSuppliesGoldCost"
 
 local addonDefaults = {
-    use_tsm = false,
+    use_tsm = true,
     use_auc = false,
-    show_rep_gain = false,
-    show_rep_until = false,
+    show_rep_gain = true,
+    show_rep_until = true,
+    show_experience_gain = true,
     detailed_tooltip = false,
 }
 
@@ -68,6 +69,12 @@ local checkboxes = {
         name = "show_rep_until",
         label = "Show reputation until",
         description = "show_rep_until",
+        addonDependency = "not_needed"
+    },
+    {
+        name = "show_experience_gain",
+        label = "Show experience again",
+        description = "show_experience_gain",
         addonDependency = "not_needed"
     },
     {

@@ -1,3 +1,11 @@
+## 1.3.0
+- Experience gain is now added for all boxes. Toggleable through the options page.
+- CODEOWNERS file
+
+
+### 1.2.5
+- Thanks to a PR by @JulianIntronati we now use itemIDs instead of item names for retrieving the item information.
+
 ### 1.2.4
 - Add detection for human racial ability
 
