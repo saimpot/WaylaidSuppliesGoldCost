@@ -95,40 +95,40 @@ local WaylaidRewardsInfo = {
 local WaylaidSuppliesInfo = {
     -- [Waylaid Supplies name] = {waylaid supplies item ID, required item ID, quantity required, reputation awarded, currency awarded}
     -- Level Unknown (probably invalid items, datamined from wowhead)
-    ["Waylaid Supplies: Lesser Stoneshield Potions"] = {
-        215394,
+    -- Waylaid Supplies: Lesser Stoneshield Potions
+    [215394] = {
         4623,
         20,
         WaylaidRewardsInfo["UNKNOWN"]["reputationAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["currencyAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Gnomish Rocket Boots"] = {
-        215405,
+    -- Waylaid Supplies: Gnomish Rocket Boots
+    [215405]= {
         10724,
         20,
         WaylaidRewardsInfo["UNKNOWN"]["reputationAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["currencyAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Goblin Mortars"] = {
-        215406,
+    -- Waylaid Supplies: Goblin Mortars
+    [215406] = {
         10577,
         20,
         WaylaidRewardsInfo["UNKNOWN"]["reputationAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["currencyAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Dusky Belts"] = {
-        215410,
+    -- Waylaid Supplies: Dusky Belts
+    [215410] = {
         7387,
         4,
         WaylaidRewardsInfo["UNKNOWN"]["reputationAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["currencyAwarded"],
         WaylaidRewardsInfo["UNKNOWN"]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Shadowskin Gloves"] = {
-        215412,
+    -- Waylaid Supplies: Shadowskin Gloves
+    [215412] = {
         18238,
         20,
         WaylaidRewardsInfo["UNKNOWN"]["reputationAwarded"],
@@ -137,72 +137,72 @@ local WaylaidSuppliesInfo = {
     },
 
     -- Level 9
-    ["Waylaid Supplies: Peacebloom"] = {
-        211316,
+    -- Waylaid Supplies: Peacebloom
+    [211316] = {
         2447,
         20,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Copper Bars"] = {
-        210771,
+    -- Waylaid Supplies: Copper Bars
+    [210771] = {
         2840,
         20,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Rough Stone"] = {
-        211933,
+    -- Waylaid Supplies: Rough Stone
+    [211933] = {
         2835,
         10,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Brilliant Smallfish"] = {
-        211331,
+    -- Waylaid Supplies: Brilliant Smallfish
+    [211331] = {
         6290,
         20,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Silverleaf"] = {
-        211317,
+    -- Waylaid Supplies: Silverleaf
+    [211317] = {
         765,
         20,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Heavy Linen Bandages"] = {
-        211332,
+    -- Waylaid Supplies: Heavy Linen Bandages
+    [211332] = {
         2581,
         10,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Light Leather"] = {
-        211315,
+    -- Waylaid Supplies: Light Leather
+    [211315] = {
         2318,
         14,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Herb Baked Eggs"] = {
-        211329,
+    -- Waylaid Supplies: Herb Baked Eggs
+    [211329] = {
         6888,
         20,
         WaylaidRewardsInfo[9]["reputationAwarded"],
         WaylaidRewardsInfo[9]["currencyAwarded"],
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Spiced Wolf Meat"] = {
-        211330,
+    -- Waylaid Supplies: Spiced Wolf Meat
+    [211330] = {
         2680,
         20,
         WaylaidRewardsInfo[9]["reputationAwarded"],
@@ -211,96 +211,96 @@ local WaylaidSuppliesInfo = {
     },
 
     -- Level 12
-    ["Waylaid Supplies: Brown Linen Pants"] = {
-        211327,
+    -- Waylaid Supplies: Brown Linen Pants
+    [211327] = {
         4343,
         6,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Brown Linen Robes"] = {
-        211328,
+    -- Waylaid Supplies: Brown Linen Robes
+    [211328] = {
         6238,
         4,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Copper Shortswords"] = {
-        211319,
+    -- Waylaid Supplies: Copper Shortswords
+    [211319] = {
         2847,
         6,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Embossed Leather Vests"] = {
-        211326,
+    -- Waylaid Supplies: Embossed Leather Vests
+    [211326] = {
         2300,
         3,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Handstitched Leather Belts"] = {
-        211325,
+    -- Waylaid Supplies: Handstitched Leather Belts
+    [211325] = {
         4237,
         5,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Healing Potions"] = {
-        211934,
+    -- Waylaid Supplies: Healing Potions
+    [211934] = {
         929,
         10,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Lesser Magic Wands"] = {
-        211321,
+    -- Waylaid Supplies: Lesser Magic Wands
+    [211321] = {
         11287,
         2,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Minor Healing Potions"] = {
-        211318,
+    -- Waylaid Supplies: Minor Healing Potions
+    [211318] = {
         118,
         20,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Minor Wizard Oil"] = {
-        211322,
+    -- Waylaid Supplies: Minor Wizard Oil
+    [211322] = {
         20744,
         2,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Rough Boomsticks"] = {
-        211324,
+    -- Waylaid Supplies: Rough Boomsticks
+    [211324] = {
         4362,
         3,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Rough Copper Bombs"] = {
-        211323,
+    -- Waylaid Supplies: Rough Copper Bombs
+    [211323] = {
         4360,
         12,
         WaylaidRewardsInfo[12]["reputationAwarded"],
         WaylaidRewardsInfo[12]["currencyAwarded"],
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Runed Copper Pants"] = {
-        211320,
+    -- Waylaid Supplies: Runed Copper Pants
+    [211320] = {
         3473,
         3,
         WaylaidRewardsInfo[12]["reputationAwarded"],
@@ -309,72 +309,72 @@ local WaylaidSuppliesInfo = {
     },
 
     -- Level 18
-    ["Waylaid Supplies: Bronze Bars"] = {
-        211819,
+    -- Waylaid Supplies: Bronze Bars
+    [211819] = {
         2841,
         12,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Silver Bars"] = {
-        211820,
+    -- Waylaid Supplies: Silver Bars
+    [211820] = {
         2842,
         6,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Medium Leather"] = {
-        211821,
+    -- Waylaid Supplies: Medium Leather
+    [211821] = {
         2319,
         12,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Bruiseweed"] = {
-        211822,
+    -- Waylaid Supplies: Bruiseweed
+    [211822] = {
         2453,
         20,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Swiftthistle"] = {
-        211823,
+    -- Waylaid Supplies: Swiftthistle
+    [211823] = {
         2452,
         20,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Smoked Bear Meat"] = {
-        211836,
+    -- Waylaid Supplies: Smoked Bear Meat
+    [211836] = {
         8607,
         20,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Goblin Deviled Clams"] = {
-        211837,
+    -- Waylaid Supplies: Goblin Deviled Clams
+    [211837] = {
         5527,
         8,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Heavy Wool Bandages"] = {
-        211838,
+    -- Waylaid Supplies: Heavy Wool Bandages
+    [211838] = {
         3531,
         15,
         WaylaidRewardsInfo[18]["reputationAwarded"],
         WaylaidRewardsInfo[18]["currencyAwarded"],
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Smoked Sagefish"] = {
-        211835,
+    -- Waylaid Supplies: Smoked Sagefish
+    [211835] = {
         21072,
         15,
         WaylaidRewardsInfo[18]["reputationAwarded"],
@@ -383,48 +383,48 @@ local WaylaidSuppliesInfo = {
     },
 
     -- Level 22
-    ["Waylaid Supplies: Dark Leather Cloaks"] = {
-        211831,
+    -- Waylaid Supplies: Dark Leather Cloaks
+    [211831] = {
         2316,
         2,
         WaylaidRewardsInfo[22]["reputationAwarded"],
         WaylaidRewardsInfo[22]["currencyAwarded"],
         WaylaidRewardsInfo[22]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Gray Woolen Shirts"] = {
-        211833,
+    -- Waylaid Supplies: Gray Woolen Shirts
+    [211833] = {
         2587,
         4,
         WaylaidRewardsInfo[22]["reputationAwarded"],
         WaylaidRewardsInfo[22]["currencyAwarded"],
         WaylaidRewardsInfo[22]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Lesser Mana Potions"] = {
-        211824,
+    -- Waylaid Supplies: Lesser Mana Potions
+    [211824] = {
         3385,
         20,
         WaylaidRewardsInfo[22]["reputationAwarded"],
         WaylaidRewardsInfo[22]["currencyAwarded"],
         WaylaidRewardsInfo[22]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Minor Mana Oil"] = {
-        211828,
+    -- Waylaid Supplies: Minor Mana Oil
+    [211828] = {
         20745,
         2,
         WaylaidRewardsInfo[22]["reputationAwarded"],
         WaylaidRewardsInfo[22]["currencyAwarded"],
         WaylaidRewardsInfo[22]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Rough Bronze Boots"] = {
-        211825,
+    -- Waylaid Supplies: Rough Bronze Boots
+    [211825] = {
         6350,
         3,
         WaylaidRewardsInfo[22]["reputationAwarded"],
         WaylaidRewardsInfo[22]["currencyAwarded"],
         WaylaidRewardsInfo[22]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Small Bronze Bombs"] = {
-        211829,
+    -- Waylaid Supplies: Small Bronze Bombs
+    [211829] = {
         4374,
         12,
         WaylaidRewardsInfo[22]["reputationAwarded"],
@@ -433,48 +433,48 @@ local WaylaidSuppliesInfo = {
     },
 
     -- Level 25
-    ["Waylaid Supplies: Hillman's Shoulders"] = {
-        211832,
+    --["Waylaid Supplies: Hillman's Shoulders"] = {
+    [211832] = {
         4251,
         2,
         WaylaidRewardsInfo[25]["reputationAwarded"],
         WaylaidRewardsInfo[25]["currencyAwarded"],
         WaylaidRewardsInfo[25]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Elixir of Firepower"] = {
-        211935,
+    -- Waylaid Supplies: Elixir of Firepower
+    [211935] = {
         6373,
         15,
         WaylaidRewardsInfo[25]["reputationAwarded"],
         WaylaidRewardsInfo[25]["currencyAwarded"],
         WaylaidRewardsInfo[25]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Ornate Spyglasses"] = {
-        211830,
+    -- Waylaid Supplies: Ornate Spyglasses
+    [211830] = {
         5507,
         2,
         WaylaidRewardsInfo[25]["reputationAwarded"],
         WaylaidRewardsInfo[25]["currencyAwarded"],
         WaylaidRewardsInfo[25]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Pearl-clasped Cloaks"] = {
-        211834,
+    --["Waylaid Supplies: Pearl-clasped Cloaks"] = {
+    [211834] = {
         5542,
         3,
         WaylaidRewardsInfo[25]["reputationAwarded"],
         WaylaidRewardsInfo[25]["currencyAwarded"],
         WaylaidRewardsInfo[25]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Runed Silver Rods"] = {
-        211827,
+    -- Waylaid Supplies: Runed Silver Rods
+    [211827] = {
         6339,
         1,
         WaylaidRewardsInfo[25]["reputationAwarded"],
         WaylaidRewardsInfo[25]["currencyAwarded"],
         WaylaidRewardsInfo[25]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Silver Skeleton Keys"] = {
-        211826,
+    -- Waylaid Supplies: Silver Skeleton Keys
+    [211826] = {
         15869,
         14,
         WaylaidRewardsInfo[25]["reputationAwarded"],
@@ -483,112 +483,112 @@ local WaylaidSuppliesInfo = {
     },
 
     -- Level 28
-    ["Waylaid Supplies: Fadeleaf"] = {
-        215389,
+    -- Waylaid Supplies: Fadeleaf
+    [215389] = {
         3818,
         16,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Fire Oil"] = {
-        215421,
+    -- Waylaid Supplies: Fire Oil
+    [215421] = {
         6371,
         10,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Formal White Shirts"] = {
-        215413,
+    -- Waylaid Supplies: Formal White Shirts
+    [215413] = {
         4334,
         3,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Heavy Hide"] = {
-        215387,
+    -- Waylaid Supplies: Heavy Hide
+    [215387] = {
         4235,
         5,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Heavy Silk Bandages"] = {
-        215419,
+    -- Waylaid Supplies: Heavy Silk Bandages
+    [215419] = {
         6451,
         10,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Khadgar's Whisker"] = {
-        215390,
+    --["Waylaid Supplies: Khadgar's Whisker"] = {
+    [215390] = {
         3358,
         10,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Mithril Bars"] = {
-        215386,
+    -- Waylaid Supplies: Mithril Bars
+    [215386] = {
         3860,
         6,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Wintersbite"] = {
-        215391,
+    -- Waylaid Supplies: Wintersbite
+    [215391] = {
         3819,
-        20,
+        8,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Purple Lotus"] = {
-        215392,
+    -- Waylaid Supplies: Purple Lotus
+    [215392] = {
         8831,
         8,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Solid Grinding Stones"] = {
-        215400,
+    -- Waylaid Supplies: Solid Grinding Stones
+    [215400] = {
         7966,
         10,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Soothing Turtle Bisque"] = {
-        215417,
+    -- Waylaid Supplies: Soothing Turtle Bisque
+    [215417] = {
         3729,
         10,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Spider Sausages"] = {
-        215418,
+    -- Waylaid Supplies: Spider Sausages
+    [215418] = {
         17222,
         10,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Thick Leather"] = {
-        215388,
+    -- Waylaid Supplies: Thick Leather
+    [215388] = {
         4304,
         10,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Rockscale Cod"] = {
-        215420,
+    -- Waylaid Supplies: Rockscale Cod
+    [215420] = {
         6362,
         40,
         WaylaidRewardsInfo[28]["reputationAwarded"],
@@ -597,104 +597,104 @@ local WaylaidSuppliesInfo = {
     },
 
     -- Level 35
-    ["Waylaid Supplies: Barbaric Shoulders"] = {
-        215407,
+    -- Waylaid Supplies: Barbaric Shoulders
+    [215407] = {
         5964,
         4,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Big Iron Bombs"] = {
-        215402,
+    -- Waylaid Supplies: Big Iron Bombs
+    [215402] = {
         4394,
         8,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Compact Harvest Reaper Kits"] = {
-        215401,
+    -- Waylaid Supplies: Compact Harvest Reaper Kits
+    [215401] = {
         4391,
         2,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Crimson Silk Pantaloons"] = {
-        215414,
+    -- Waylaid Supplies: Crimson Silk Pantaloons
+    [215414] = {
         7062,
         4,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Deadly Scopes"] = {
-        215403,
+    -- Waylaid Supplies: Deadly Scopes
+    [215403] = {
         10546,
         4,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Elixirs of Agility"] = {
-        215395,
+    -- Waylaid Supplies: Elixirs of Agility
+    [215395] = {
         8949,
         12,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Frost Leather Cloaks"] = {
-        215411,
+    -- Waylaid Supplies: Frost Leather Cloaks
+    [215411] = {
         7377,
         3,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Gold Bars"] = {
-        215385,
+    -- Waylaid Supplies: Gold Bars
+    [215385] = {
         3577,
         4,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Greater Healing Potions"] = {
-        215393,
+    -- Waylaid Supplies: Greater Healing Potions
+    [215393] = {
         1710,
         16,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Rich Purple Silk Shirts"] = {
-        215415,
+    -- Waylaid Supplies: Rich Purple Silk Shirts
+    [215415] = {
         4335,
         5,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Guardian Gloves"] = {
-        215408,
+    -- Waylaid Supplies: Guardian Gloves
+    [215408] = {
         5966,
         6,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Green Iron Bracers"] = {
-        215398,
+    -- Waylaid Supplies: Green Iron Bracers
+    [215398] = {
         3835,
         5,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Heavy Mithril Gauntlets"] = {
-        215399,
+    -- Waylaid Supplies: Heavy Mithril Gauntlets
+    [215399] = {
         7919,
         4,
         WaylaidRewardsInfo[35]["reputationAwarded"],
@@ -703,40 +703,40 @@ local WaylaidSuppliesInfo = {
     },
 
     -- Level 40
-    ["Waylaid Supplies: Elixirs of Greater Defense"] = {
-        215396,
+    -- Waylaid Supplies: Elixirs of Greater Defense
+    [215396] = {
         8951,
         14,
         WaylaidRewardsInfo[40]["reputationAwarded"],
         WaylaidRewardsInfo[40]["currencyAwarded"],
         WaylaidRewardsInfo[40]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Massive Iron Axes"] = {
-        215397,
+    -- Waylaid Supplies: Massive Iron Axes
+    [215397] = {
         3855,
         2,
         WaylaidRewardsInfo[40]["reputationAwarded"],
         WaylaidRewardsInfo[40]["currencyAwarded"],
         WaylaidRewardsInfo[40]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Mithril Blunderbuss"] = {
-        215404,
+    -- Waylaid Supplies: Mithril Blunderbuss
+    [215404] = {
         10508,
         2,
         WaylaidRewardsInfo[40]["reputationAwarded"],
         WaylaidRewardsInfo[40]["currencyAwarded"],
         WaylaidRewardsInfo[40]["givesRepUntil"]
     },
-    ["Waylaid Supplies: White Bandit Masks"] = {
-        215416,
+    -- Waylaid Supplies: White Bandit Masks
+    [215416] = {
         10008,
         4,
         WaylaidRewardsInfo[40]["reputationAwarded"],
         WaylaidRewardsInfo[40]["currencyAwarded"],
         WaylaidRewardsInfo[40]["givesRepUntil"]
     },
-    ["Waylaid Supplies: Turtle Scale Bracers"] = {
-        215409,
+    -- Waylaid Supplies: Turtle Scale Bracers
+    [215409] = {
         8198,
         3,
         WaylaidRewardsInfo[40]["reputationAwarded"],
@@ -757,8 +757,8 @@ local function IsPlayerRaceHuman()
     return false
 end
 
-local function GetWaylaidSuppliesInfo(waylaidItemName)
-    return WaylaidSuppliesInfo[waylaidItemName]
+local function GetWaylaidSuppliesInfo(itemID)
+    return WaylaidSuppliesInfo[itemID]
 end
 
 local function GetAuctionatorPricingInformation(itemID)
@@ -946,11 +946,11 @@ local function HandlePricingOnTooltip(requiredItemID, quantityRequired, currency
     end
 end
 
-local function UpdateTooltipWithWaylaidInformation(tooltip, name)
-    local requiredItemInfo = GetWaylaidSuppliesInfo(name)
+local function UpdateTooltipWithWaylaidInformation(tooltip, itemID)
+    local requiredItemInfo = GetWaylaidSuppliesInfo(itemID)
 
     if requiredItemInfo then
-        local _, requiredItemID, quantityRequired, reputationAwarded, currencyAwarded, givesRepUntil = unpack(requiredItemInfo)
+        local requiredItemID, quantityRequired, reputationAwarded, currencyAwarded, givesRepUntil = unpack(requiredItemInfo)
 
         HandlePricingOnTooltip(requiredItemID, quantityRequired, currencyAwarded, tooltip)
         HandleReputationNumberOnTooltip(reputationAwarded, givesRepUntil, tooltip)
@@ -961,11 +961,18 @@ local function UpdateTooltipWithWaylaidInformation(tooltip, name)
 end
 
 local function OnTooltipSetItem(tooltip, ...)
-    local name, _ = tooltip:GetItem()
-    if not name or not string.find(name, "Waylaid Supplies:") then
+    local _, itemLink = tooltip:GetItem()
+    if not itemLink == "" or itemLink == nil then
         return
     end
-    UpdateTooltipWithWaylaidInformation(tooltip, name)
+    local itemID = GetItemInfoFromHyperlink(itemLink)
+    if itemID == nil then
+        return
+    end
+    if WaylaidSuppliesInfo[itemID] == nil then
+        return
+    end
+    UpdateTooltipWithWaylaidInformation(tooltip, itemID)
 end
 
 GameTooltip:HookScript("OnTooltipSetItem", OnTooltipSetItem)
