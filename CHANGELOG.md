@@ -1,3 +1,6 @@
+### 1.4.1
+- Made a pass over the items to ensure the quantities match the items
+
 ## 1.4.0
 - Added the functionality to query realms through TSM API to get the item prices, so the fill price is visible 
 even without a module enabled
