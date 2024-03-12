@@ -4,7 +4,22 @@
 ## Author: Gressil
 ## SavedVariables: WaylaidSuppliesGoldCostDB
 ## OptionalDeps: TradeSkillMaster, Auctionator
-## Version: 1.3.1
+## Version: 1.4.0
+
+ItemDB\Chaos Bolt-EU_DB.lua
+ItemDB\Chaos Bolt-US_DB.lua
+ItemDB\Crusader Strike-EU_DB.lua
+ItemDB\Crusader Strike-US_DB.lua
+ItemDB\Lava Lash-EU_DB.lua
+ItemDB\Lava Lash-US_DB.lua
+ItemDB\Living Flame-EU_DB.lua
+ItemDB\Living Flame-US_DB.lua
+ItemDB\Lone Wolf-EU_DB.lua
+ItemDB\Lone Wolf-US_DB.lua
+ItemDB\Penance-US_DB.lua
+ItemDB\Shadowstrike-US_DB.lua
+ItemDB\Wild Growth-EU_DB.lua
+ItemDB\Wild Growth-US_DB.lua
 
 Settings.lua
 WaylaidSuppliesGoldCost.lua

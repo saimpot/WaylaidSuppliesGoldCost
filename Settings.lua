@@ -1,7 +1,8 @@
 local addonName = "WaylaidSuppliesGoldCost"
 
 local addonDefaults = {
-    use_tsm = true,
+    use_local = true,
+    use_tsm = false,
     use_auc = false,
     show_rep_gain = true,
     show_rep_until = true,
@@ -47,6 +48,12 @@ local function createCheckbox(name, label, description, point, relativeTo, relat
 end
 
 local checkboxes = {
+    {
+        name = "use_local",
+        label = "Use the Local pre-built database as a price source",
+        description = "use_local",
+        addonDependency = "not_needed"
+    },
     {
         name = "use_tsm",
         label = "Use TSM as price source",
