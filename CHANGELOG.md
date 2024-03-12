@@ -1,7 +1,9 @@
+### 1.3.1
+- Made a pass over the items to ensure the quantities match the items
+
 ## 1.3.0
 - Experience gain is now added for all boxes. Toggleable through the options page.
 - CODEOWNERS file
-
 
 ### 1.2.5
 - Thanks to a PR by @JulianIntronati we now use itemIDs instead of item names for retrieving the item information.

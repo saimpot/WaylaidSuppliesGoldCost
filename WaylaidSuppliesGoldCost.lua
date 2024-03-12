@@ -107,6 +107,7 @@ local WaylaidSuppliesInfo = {
     -- [Waylaid Supplies name] = {waylaid supplies item ID, required item ID, quantity required, reputation awarded, currency awarded}
     -- Level Unknown (probably invalid items, datamined from wowhead)
     -- Waylaid Supplies: Lesser Stoneshield Potions
+    -- @url https://www.wowhead.com/classic/item=215394/
     [215394] = {
         4623,
         20,
@@ -116,6 +117,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo["UNKNOWN"]["givesRepUntil"]
     },
     -- Waylaid Supplies: Gnomish Rocket Boots
+    -- @url https://www.wowhead.com/classic/item=215405/
     [215405] = {
         10724,
         20,
@@ -125,6 +127,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo["UNKNOWN"]["givesRepUntil"]
     },
     -- Waylaid Supplies: Goblin Mortars
+    -- @url https://www.wowhead.com/classic/item=215406/
     [215406] = {
         10577,
         20,
@@ -134,6 +137,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo["UNKNOWN"]["givesRepUntil"]
     },
     -- Waylaid Supplies: Dusky Belts
+    -- @url https://www.wowhead.com/classic/item=215410/
     [215410] = {
         7387,
         4,
@@ -143,6 +147,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo["UNKNOWN"]["givesRepUntil"]
     },
     -- Waylaid Supplies: Shadowskin Gloves
+    -- @url https://www.wowhead.com/classic/item=215412/
     [215412] = {
         18238,
         20,
@@ -154,6 +159,7 @@ local WaylaidSuppliesInfo = {
 
     -- Level 9
     -- Waylaid Supplies: Peacebloom
+    -- @url https://www.wowhead.com/classic/item=211316/
     [211316] = {
         2447,
         20,
@@ -163,6 +169,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     -- Waylaid Supplies: Copper Bars
+    -- @url https://www.wowhead.com/classic/item=210771/
     [210771] = {
         2840,
         20,
@@ -172,6 +179,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     -- Waylaid Supplies: Rough Stone
+    -- @url https://www.wowhead.com/classic/item=211933/
     [211933] = {
         2835,
         10,
@@ -181,6 +189,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     -- Waylaid Supplies: Brilliant Smallfish
+    -- @url https://www.wowhead.com/classic/item=211331/
     [211331] = {
         6290,
         20,
@@ -190,6 +199,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     -- Waylaid Supplies: Silverleaf
+    -- @url https://www.wowhead.com/classic/item=211317/
     [211317] = {
         765,
         20,
@@ -199,6 +209,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     -- Waylaid Supplies: Heavy Linen Bandages
+    -- @url https://www.wowhead.com/classic/item=211332/
     [211332] = {
         2581,
         10,
@@ -208,6 +219,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     -- Waylaid Supplies: Light Leather
+    -- @url https://www.wowhead.com/classic/item=211315/
     [211315] = {
         2318,
         14,
@@ -217,6 +229,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     -- Waylaid Supplies: Herb Baked Eggs
+    -- @url https://www.wowhead.com/classic/item=211329/
     [211329] = {
         6888,
         20,
@@ -226,6 +239,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[9]["givesRepUntil"]
     },
     -- Waylaid Supplies: Spiced Wolf Meat
+    -- @url https://www.wowhead.com/classic/item=211330/
     [211330] = {
         2680,
         20,
@@ -237,6 +251,7 @@ local WaylaidSuppliesInfo = {
 
     -- Level 12
     -- Waylaid Supplies: Brown Linen Pants
+    -- @url https://www.wowhead.com/classic/item=211327/
     [211327] = {
         4343,
         6,
@@ -246,6 +261,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Brown Linen Robes
+    -- @url https://www.wowhead.com/classic/item=211328/
     [211328] = {
         6238,
         4,
@@ -255,6 +271,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Copper Shortswords
+    -- @url https://www.wowhead.com/classic/item=211319/
     [211319] = {
         2847,
         6,
@@ -264,6 +281,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Embossed Leather Vests
+    -- @url https://www.wowhead.com/classic/item=211326/
     [211326] = {
         2300,
         3,
@@ -273,6 +291,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Handstitched Leather Belts
+    -- @url https://www.wowhead.com/classic/item=211325/
     [211325] = {
         4237,
         5,
@@ -282,6 +301,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Healing Potions
+    -- @url https://www.wowhead.com/classic/item=211934/
     [211934] = {
         929,
         10,
@@ -291,6 +311,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Lesser Magic Wands
+    -- @url https://www.wowhead.com/classic/item=211321/
     [211321] = {
         11287,
         2,
@@ -300,6 +321,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Minor Healing Potions
+    -- @url https://www.wowhead.com/classic/item=211318/
     [211318] = {
         118,
         20,
@@ -309,6 +331,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Minor Wizard Oil
+    -- @url https://www.wowhead.com/classic/item=211322/
     [211322] = {
         20744,
         2,
@@ -318,6 +341,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Rough Boomsticks
+    -- @url https://www.wowhead.com/classic/item=211324/
     [211324] = {
         4362,
         3,
@@ -327,6 +351,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Rough Copper Bombs
+    -- @url https://www.wowhead.com/classic/item=211323/
     [211323] = {
         4360,
         12,
@@ -336,6 +361,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[12]["givesRepUntil"]
     },
     -- Waylaid Supplies: Runed Copper Pants
+    -- @url https://www.wowhead.com/classic/item=211320/
     [211320] = {
         3473,
         3,
@@ -347,6 +373,7 @@ local WaylaidSuppliesInfo = {
 
     -- Level 18
     -- Waylaid Supplies: Bronze Bars
+    -- @url https://www.wowhead.com/classic/item=211819/
     [211819] = {
         2841,
         12,
@@ -356,6 +383,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
     -- Waylaid Supplies: Silver Bars
+    -- @url https://www.wowhead.com/classic/item=211820/
     [211820] = {
         2842,
         6,
@@ -365,6 +393,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
     -- Waylaid Supplies: Medium Leather
+    -- @url https://www.wowhead.com/classic/item=211821/
     [211821] = {
         2319,
         12,
@@ -374,6 +403,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
     -- Waylaid Supplies: Bruiseweed
+    -- @url https://www.wowhead.com/classic/item=211822/
     [211822] = {
         2453,
         20,
@@ -383,6 +413,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
     -- Waylaid Supplies: Swiftthistle
+    -- @url https://www.wowhead.com/classic/item=211823/
     [211823] = {
         2452,
         20,
@@ -392,6 +423,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
     -- Waylaid Supplies: Smoked Bear Meat
+    -- @url https://www.wowhead.com/classic/item=211836/
     [211836] = {
         8607,
         20,
@@ -401,6 +433,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
     -- Waylaid Supplies: Goblin Deviled Clams
+    -- @url https://www.wowhead.com/classic/item=211837/
     [211837] = {
         5527,
         8,
@@ -410,6 +443,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
     -- Waylaid Supplies: Heavy Wool Bandages
+    -- @url https://www.wowhead.com/classic/item=211838/
     [211838] = {
         3531,
         15,
@@ -419,6 +453,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[18]["givesRepUntil"]
     },
     -- Waylaid Supplies: Smoked Sagefish
+    -- @url https://www.wowhead.com/classic/item=211835/
     [211835] = {
         21072,
         15,
@@ -430,6 +465,7 @@ local WaylaidSuppliesInfo = {
 
     -- Level 22
     -- Waylaid Supplies: Dark Leather Cloaks
+    -- @url https://www.wowhead.com/classic/item=211831/
     [211831] = {
         2316,
         2,
@@ -439,6 +475,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[22]["givesRepUntil"]
     },
     -- Waylaid Supplies: Gray Woolen Shirts
+    -- @url https://www.wowhead.com/classic/item=211833/
     [211833] = {
         2587,
         4,
@@ -448,6 +485,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[22]["givesRepUntil"]
     },
     -- Waylaid Supplies: Lesser Mana Potions
+    -- @url https://www.wowhead.com/classic/item=211824/
     [211824] = {
         3385,
         20,
@@ -457,6 +495,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[22]["givesRepUntil"]
     },
     -- Waylaid Supplies: Minor Mana Oil
+    -- @url https://www.wowhead.com/classic/item=211828/
     [211828] = {
         20745,
         2,
@@ -466,6 +505,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[22]["givesRepUntil"]
     },
     -- Waylaid Supplies: Rough Bronze Boots
+    -- @url https://www.wowhead.com/classic/item=211825/
     [211825] = {
         6350,
         3,
@@ -475,6 +515,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[22]["givesRepUntil"]
     },
     -- Waylaid Supplies: Small Bronze Bombs
+    -- @url https://www.wowhead.com/classic/item=211829/
     [211829] = {
         4374,
         12,
@@ -485,7 +526,8 @@ local WaylaidSuppliesInfo = {
     },
 
     -- Level 25
-    --["Waylaid Supplies: Hillman's Shoulders"] = {
+    -- Waylaid Supplies: Hillman's Shoulders
+    -- @url https://www.wowhead.com/classic/item=211832/
     [211832] = {
         4251,
         2,
@@ -495,6 +537,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[25]["givesRepUntil"]
     },
     -- Waylaid Supplies: Elixir of Firepower
+    -- @url https://www.wowhead.com/classic/item=211935/
     [211935] = {
         6373,
         15,
@@ -504,6 +547,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[25]["givesRepUntil"]
     },
     -- Waylaid Supplies: Ornate Spyglasses
+    -- @url https://www.wowhead.com/classic/item=211830/
     [211830] = {
         5507,
         2,
@@ -512,7 +556,9 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[25]["experienceAwarded"],
         WaylaidRewardsInfo[25]["givesRepUntil"]
     },
-    --["Waylaid Supplies: Pearl-clasped Cloaks"] = {
+
+    -- Waylaid Supplies: Pearl-clasped Cloaks
+    -- @url https://www.wowhead.com/classic/item=211834/
     [211834] = {
         5542,
         3,
@@ -522,6 +568,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[25]["givesRepUntil"]
     },
     -- Waylaid Supplies: Runed Silver Rods
+    -- @url https://www.wowhead.com/classic/item=211827/
     [211827] = {
         6339,
         1,
@@ -531,6 +578,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[25]["givesRepUntil"]
     },
     -- Waylaid Supplies: Silver Skeleton Keys
+    -- @url https://www.wowhead.com/classic/item=211826/
     [211826] = {
         15869,
         14,
@@ -542,6 +590,7 @@ local WaylaidSuppliesInfo = {
 
     -- Level 28
     -- Waylaid Supplies: Fadeleaf
+    -- @url https://www.wowhead.com/classic/item=215389/
     [215389] = {
         3818,
         16,
@@ -551,15 +600,17 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Fire Oil
+    -- @url https://www.wowhead.com/classic/item=215421/
     [215421] = {
         6371,
-        10,
+        7,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
         WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Formal White Shirts
+    -- @url https://www.wowhead.com/classic/item=215413/
     [215413] = {
         4334,
         3,
@@ -569,6 +620,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Heavy Hide
+    -- @url https://www.wowhead.com/classic/item=215387/
     [215387] = {
         4235,
         5,
@@ -578,6 +630,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Heavy Silk Bandages
+    -- @url https://www.wowhead.com/classic/item=215419/
     [215419] = {
         6451,
         10,
@@ -586,7 +639,9 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
-    --["Waylaid Supplies: Khadgar's Whisker"] = {
+
+    -- Waylaid Supplies: Khadgar's Whisker
+    -- @url https://www.wowhead.com/classic/item=215390/
     [215390] = {
         3358,
         10,
@@ -596,6 +651,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Mithril Bars
+    -- @url https://www.wowhead.com/classic/item=215386/
     [215386] = {
         3860,
         6,
@@ -605,6 +661,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Wintersbite
+    -- @url https://www.wowhead.com/classic/item=215391/
     [215391] = {
         3819,
         8,
@@ -614,6 +671,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Purple Lotus
+    -- @url https://www.wowhead.com/classic/item=215392/
     [215392] = {
         8831,
         8,
@@ -623,15 +681,17 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Solid Grinding Stones
+    -- @url https://www.wowhead.com/classic/item=215400/
     [215400] = {
         7966,
-        10,
+        5,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
         WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Soothing Turtle Bisque
+    -- @url https://www.wowhead.com/classic/item=215417/
     [215417] = {
         3729,
         10,
@@ -641,15 +701,17 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Spider Sausages
+    -- @url https://www.wowhead.com/classic/item=215418/
     [215418] = {
         17222,
-        10,
+        5,
         WaylaidRewardsInfo[28]["reputationAwarded"],
         WaylaidRewardsInfo[28]["currencyAwarded"],
         WaylaidRewardsInfo[28]["experienceAwarded"],
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Thick Leather
+    -- @url https://www.wowhead.com/classic/item=215388/
     [215388] = {
         4304,
         10,
@@ -659,6 +721,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[28]["givesRepUntil"]
     },
     -- Waylaid Supplies: Rockscale Cod
+    -- @url https://www.wowhead.com/classic/item=215420/
     [215420] = {
         6362,
         40,
@@ -670,6 +733,7 @@ local WaylaidSuppliesInfo = {
 
     -- Level 35
     -- Waylaid Supplies: Barbaric Shoulders
+    -- @url https://www.wowhead.com/classic/item=215407/
     [215407] = {
         5964,
         4,
@@ -679,6 +743,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Big Iron Bombs
+    -- @url https://www.wowhead.com/classic/item=215402/
     [215402] = {
         4394,
         8,
@@ -688,6 +753,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Compact Harvest Reaper Kits
+    -- @url https://www.wowhead.com/classic/item=215401/
     [215401] = {
         4391,
         2,
@@ -697,6 +763,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Crimson Silk Pantaloons
+    -- @url https://www.wowhead.com/classic/item=215414/
     [215414] = {
         7062,
         4,
@@ -706,33 +773,37 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Deadly Scopes
+    -- @url https://www.wowhead.com/classic/item=215403/
     [215403] = {
         10546,
-        4,
+        2,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Elixirs of Agility
+    -- @url https://www.wowhead.com/classic/item=215395/
     [215395] = {
         8949,
-        12,
+        6,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Frost Leather Cloaks
+    -- @url https://www.wowhead.com/classic/item=215411/
     [215411] = {
         7377,
-        3,
+        2,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Gold Bars
+    -- @url https://www.wowhead.com/classic/item=215385/
     [215385] = {
         3577,
         4,
@@ -742,6 +813,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Greater Healing Potions
+    -- @url https://www.wowhead.com/classic/item=215393/
     [215393] = {
         1710,
         16,
@@ -751,6 +823,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Rich Purple Silk Shirts
+    -- @url https://www.wowhead.com/classic/item=215415/
     [215415] = {
         4335,
         5,
@@ -760,15 +833,17 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Guardian Gloves
+    -- @url https://www.wowhead.com/classic/item=215408/
     [215408] = {
         5966,
-        6,
+        5,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Green Iron Bracers
+    -- @url https://www.wowhead.com/classic/item=215398/
     [215398] = {
         3835,
         5,
@@ -778,9 +853,10 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
     -- Waylaid Supplies: Heavy Mithril Gauntlets
+    -- @url https://www.wowhead.com/classic/item=215399/
     [215399] = {
         7919,
-        4,
+        3,
         WaylaidRewardsInfo[35]["reputationAwarded"],
         WaylaidRewardsInfo[35]["currencyAwarded"],
         WaylaidRewardsInfo[35]["experienceAwarded"],
@@ -789,6 +865,7 @@ local WaylaidSuppliesInfo = {
 
     -- Level 40
     -- Waylaid Supplies: Elixirs of Greater Defense
+    -- @url https://www.wowhead.com/classic/item=215396/
     [215396] = {
         8951,
         14,
@@ -798,6 +875,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[40]["givesRepUntil"]
     },
     -- Waylaid Supplies: Massive Iron Axes
+    -- @url https://www.wowhead.com/classic/item=215397/
     [215397] = {
         3855,
         2,
@@ -807,6 +885,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[40]["givesRepUntil"]
     },
     -- Waylaid Supplies: Mithril Blunderbuss
+    -- @url https://www.wowhead.com/classic/item=215404/
     [215404] = {
         10508,
         2,
@@ -816,18 +895,20 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[40]["givesRepUntil"]
     },
     -- Waylaid Supplies: White Bandit Masks
+    -- @url https://www.wowhead.com/classic/item=215416/
     [215416] = {
         10008,
-        4,
+        3,
         WaylaidRewardsInfo[40]["reputationAwarded"],
         WaylaidRewardsInfo[40]["currencyAwarded"],
         WaylaidRewardsInfo[40]["experienceAwarded"],
         WaylaidRewardsInfo[40]["givesRepUntil"]
     },
     -- Waylaid Supplies: Turtle Scale Bracers
+    -- @url https://www.wowhead.com/classic/item=215409/
     [215409] = {
         8198,
-        3,
+        2,
         WaylaidRewardsInfo[40]["reputationAwarded"],
         WaylaidRewardsInfo[40]["currencyAwarded"],
         WaylaidRewardsInfo[40]["experienceAwarded"],
