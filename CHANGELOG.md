@@ -1,3 +1,6 @@
+### 1.4.2
+- Updated item database (13/03/2024)
+
 ### 1.4.1
 - Made a pass over the items to ensure the quantities match the items
 
