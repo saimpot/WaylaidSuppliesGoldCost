@@ -773,16 +773,6 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[35]["experienceAwarded"],
         WaylaidRewardsInfo[35]["givesRepUntil"]
     },
-    -- Waylaid Supplies: Deadly Scopes
-    -- @url https://www.wowhead.com/classic/item=215403/
-    [215403] = {
-        10546,
-        2,
-        WaylaidRewardsInfo[35]["reputationAwarded"],
-        WaylaidRewardsInfo[35]["currencyAwarded"],
-        WaylaidRewardsInfo[35]["experienceAwarded"],
-        WaylaidRewardsInfo[35]["givesRepUntil"]
-    },
     -- Waylaid Supplies: Elixirs of Agility
     -- @url https://www.wowhead.com/classic/item=215395/
     [215395] = {
@@ -865,6 +855,17 @@ local WaylaidSuppliesInfo = {
     },
 
     -- Level 40
+
+    -- Waylaid Supplies: Deadly Scopes
+    -- @url https://www.wowhead.com/classic/item=215403/
+    [215403] = {
+        10546,
+        2,
+        WaylaidRewardsInfo[40]["reputationAwarded"],
+        WaylaidRewardsInfo[40]["currencyAwarded"],
+        WaylaidRewardsInfo[40]["experienceAwarded"],
+        WaylaidRewardsInfo[40]["givesRepUntil"]
+    },
     -- Waylaid Supplies: Elixirs of Greater Defense
     -- @url https://www.wowhead.com/classic/item=215396/
     [215396] = {
