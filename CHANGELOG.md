@@ -1,3 +1,9 @@
+### 1.4.12
+- Updated item database (02/04/2024)
+
+### 1.4.11
+- Updated item database (31/03/2024)
+
 ### 1.4.10
 - Updated item database (29/03/2024)
 
