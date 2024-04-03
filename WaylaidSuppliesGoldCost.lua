@@ -101,12 +101,41 @@ local WaylaidRewardsInfo = {
         ["currencyAwarded"] = 120000,
         ["experienceAwarded"] = 3450,
         ["givesRepUntil"] = "Revered",
-    }
+    },
+
+    -- quest info missing
+    -- values taken from: https://www.wowhead.com/classic/spell=449995/reputation-merchant-faction
+    [45] = {
+        ["reputationAwarded"] = 950,
+        ["currencyAwarded"] = 120000, -- @TODO: Change. This value can not be confirmed until the patch is live.
+        ["experienceAwarded"] = 1700,
+        ["givesRepUntil"] = "Revered", -- @TODO: Change. This value can not be confirmed until the patch is live.
+    },
+
+    -- quest info missing
+    -- values taken from: https://www.wowhead.com/classic/spell=449996/reputation-merchant-faction
+    [48] = {
+        ["reputationAwarded"] = 1300,
+        ["currencyAwarded"] = 120000, -- @TODO: Change. This value can not be confirmed until the patch is live.
+        ["experienceAwarded"] = 2850,
+        ["givesRepUntil"] = "Revered", -- @TODO: Change. This value can not be confirmed until the patch is live.
+    },
+
+    -- quest info missing
+    -- values taken from: https://www.wowhead.com/classic/spell=449997/reputation-merchant-faction
+    [50] = {
+        ["reputationAwarded"] = 1850,
+        ["currencyAwarded"] = 120000, -- @TODO: Change. This value can not be confirmed until the patch is live.
+        ["experienceAwarded"] = 4650,
+        ["givesRepUntil"] = "Revered", -- @TODO: Change. This value can not be confirmed until the patch is live.
+    },
 }
 
 local WaylaidSuppliesInfo = {
     -- [Waylaid Supplies name] = {waylaid supplies item ID, required item ID, quantity required, reputation awarded, currency awarded}
+
     -- Level Unknown (probably invalid items, datamined from wowhead)
+
     -- Waylaid Supplies: Lesser Stoneshield Potions
     -- @url https://www.wowhead.com/classic/item=215394/
     [215394] = {
@@ -915,6 +944,69 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[40]["currencyAwarded"],
         WaylaidRewardsInfo[40]["experienceAwarded"],
         WaylaidRewardsInfo[40]["givesRepUntil"]
+    },
+
+    -- Level 45
+
+    -- Waylaid Supplies: Thick Hide
+    -- @url https://www.wowhead.com/classic/item=220927/waylaid-supplies-thick-hide
+    [220927] = {
+        8169,
+        8,
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Rugged Leather
+    -- @url https://www.wowhead.com/classic/item=220926/waylaid-supplies-rugged-leather
+    [220926] = {
+        8170,
+        14,
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Thorium Bars
+    -- @url https://www.wowhead.com/classic/item=220925/waylaid-supplies-thorium-bars
+    [220925] = {
+        12359,
+        16,
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Truesilver Bars
+    -- @url https://www.wowhead.com/classic/item=220924/waylaid-supplies-truesilver-bars
+    [220924] = {
+        6037,
+        12,
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Dreamfoil
+    -- @url https://www.wowhead.com/classic/item=220923/waylaid-supplies-dreamfoil
+    [220923] = {
+        13463,
+        6,
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Sungrass
+    -- @url https://www.wowhead.com/classic/item=220922/waylaid-supplies-dreamfoil
+    [220922] = {
+        8838,
+        15,
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
     },
 
     -- Add more entries here as needed
