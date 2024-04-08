@@ -1,724 +1,970 @@
 if not WaylaidSuppliesGoldCost_ItemDB then WaylaidSuppliesGoldCost_ItemDB = {} end
 WaylaidSuppliesGoldCost_ItemDB['Lone Wolf-EU'] = {
-    ["UpdatedAt"] = 1712224719.801667,
+    ["UpdatedAt"] = 1712575079.922416,
     [118] = {
         ['Horde'] = {
-            minBuyout = 344,
-            marketValue = 348,
+            minBuyout = 1197,
+            marketValue = 335,
         },
         ['Alliance'] = {
-            minBuyout = 299,
-            marketValue = 405,
+            minBuyout = 199,
+            marketValue = 430,
         },
     },
     [765] = {
         ['Horde'] = {
-            minBuyout = 62,
-            marketValue = 87,
+            minBuyout = 50,
+            marketValue = 105,
         },
         ['Alliance'] = {
-            minBuyout = 27,
-            marketValue = 50,
+            minBuyout = 21,
+            marketValue = 53,
         },
     },
     [929] = {
         ['Horde'] = {
-            minBuyout = 90,
-            marketValue = 132,
+            minBuyout = 196,
+            marketValue = 172,
         },
         ['Alliance'] = {
-            minBuyout = 324,
-            marketValue = 280,
+            minBuyout = 476,
+            marketValue = 314,
         },
     },
     [1710] = {
         ['Horde'] = {
-            minBuyout = 635,
-            marketValue = 716,
+            minBuyout = 320,
+            marketValue = 622,
         },
         ['Alliance'] = {
-            minBuyout = 780,
-            marketValue = 962,
+            minBuyout = 1259,
+            marketValue = 903,
         },
     },
     [2300] = {
         ['Horde'] = {
-            minBuyout = 4587,
-            marketValue = 3842,
+            minBuyout = 5549,
+            marketValue = 5291,
         },
         ['Alliance'] = {
-            minBuyout = 6209,
-            marketValue = 5802,
+            minBuyout = 3029,
+            marketValue = 5429,
         },
     },
     [2316] = {
         ['Horde'] = {
-            minBuyout = 1998,
-            marketValue = 2590,
+            minBuyout = 2906,
+            marketValue = 2888,
         },
         ['Alliance'] = {
-            minBuyout = 5875,
-            marketValue = 4851,
+            minBuyout = 13575,
+            marketValue = 5305,
         },
     },
     [2318] = {
         ['Horde'] = {
-            minBuyout = 157,
-            marketValue = 229,
+            minBuyout = 857,
+            marketValue = 211,
         },
         ['Alliance'] = {
-            minBuyout = 199,
-            marketValue = 361,
+            minBuyout = 384,
+            marketValue = 406,
         },
     },
     [2319] = {
         ['Horde'] = {
-            minBuyout = 94,
-            marketValue = 170,
+            minBuyout = 293,
+            marketValue = 192,
         },
         ['Alliance'] = {
-            minBuyout = 86,
-            marketValue = 182,
+            minBuyout = 695,
+            marketValue = 222,
         },
     },
     [2447] = {
         ['Horde'] = {
-            minBuyout = 16,
-            marketValue = 79,
+            minBuyout = 329,
+            marketValue = 91,
         },
         ['Alliance'] = {
-            minBuyout = 85,
-            marketValue = 135,
+            minBuyout = 74,
+            marketValue = 115,
         },
     },
     [2452] = {
         ['Horde'] = {
-            minBuyout = 1500,
-            marketValue = 1716,
+            minBuyout = 2275,
+            marketValue = 2287,
         },
         ['Alliance'] = {
-            minBuyout = 1944,
-            marketValue = 2254,
+            minBuyout = 3296,
+            marketValue = 2994,
         },
     },
     [2453] = {
         ['Horde'] = {
-            minBuyout = 21,
-            marketValue = 44,
+            minBuyout = 52,
+            marketValue = 63,
         },
         ['Alliance'] = {
-            minBuyout = 48,
-            marketValue = 146,
+            minBuyout = 887,
+            marketValue = 344,
         },
     },
     [2581] = {
         ['Horde'] = {
-            minBuyout = 150,
-            marketValue = 159,
+            minBuyout = 366,
+            marketValue = 168,
         },
         ['Alliance'] = {
-            minBuyout = 110,
-            marketValue = 184,
+            minBuyout = 93,
+            marketValue = 116,
         },
     },
     [2587] = {
         ['Horde'] = {
-            minBuyout = 4989,
-            marketValue = 2981,
+            minBuyout = 4993,
+            marketValue = 4093,
         },
         ['Alliance'] = {
-            minBuyout = 3675,
-            marketValue = 2676,
+            minBuyout = 2739,
+            marketValue = 2869,
         },
     },
     [2680] = {
         ['Horde'] = {
-            minBuyout = 743,
-            marketValue = 959,
+            minBuyout = 6050,
+            marketValue = 1951,
         },
         ['Alliance'] = {
-            minBuyout = 1159,
-            marketValue = 1348,
+            minBuyout = 3100,
+            marketValue = 1091,
         },
     },
     [2835] = {
         ['Horde'] = {
-            minBuyout = 9,
-            marketValue = 23,
+            minBuyout = 6,
+            marketValue = 22,
         },
         ['Alliance'] = {
-            minBuyout = 4,
-            marketValue = 34,
+            minBuyout = 99,
+            marketValue = 39,
         },
     },
     [2840] = {
         ['Horde'] = {
-            minBuyout = 285,
-            marketValue = 396,
+            minBuyout = 849,
+            marketValue = 422,
         },
         ['Alliance'] = {
-            minBuyout = 350,
-            marketValue = 531,
+            minBuyout = 827,
+            marketValue = 606,
         },
     },
     [2841] = {
         ['Horde'] = {
-            minBuyout = 442,
-            marketValue = 448,
+            minBuyout = 549,
+            marketValue = 396,
         },
         ['Alliance'] = {
-            minBuyout = 499,
-            marketValue = 567,
+            minBuyout = 599,
+            marketValue = 571,
         },
     },
     [2842] = {
         ['Horde'] = {
-            minBuyout = 115,
-            marketValue = 167,
+            minBuyout = 298,
+            marketValue = 184,
         },
         ['Alliance'] = {
-            minBuyout = 746,
-            marketValue = 261,
+            minBuyout = 299,
+            marketValue = 710,
         },
     },
     [2847] = {
         ['Horde'] = {
-            minBuyout = 3732,
-            marketValue = 5100,
+            minBuyout = 7586,
+            marketValue = 5997,
         },
         ['Alliance'] = {
-            minBuyout = 4286,
-            marketValue = 5224,
+            minBuyout = 0,
+            marketValue = 4935,
         },
     },
     [3358] = {
         ['Horde'] = {
-            minBuyout = 193,
-            marketValue = 272,
+            minBuyout = 284,
+            marketValue = 341,
         },
         ['Alliance'] = {
-            minBuyout = 488,
-            marketValue = 285,
+            minBuyout = 161,
+            marketValue = 375,
         },
     },
     [3385] = {
         ['Horde'] = {
-            minBuyout = 98,
-            marketValue = 288,
+            minBuyout = 627,
+            marketValue = 238,
         },
         ['Alliance'] = {
-            minBuyout = 163,
-            marketValue = 270,
+            minBuyout = 150,
+            marketValue = 234,
         },
     },
     [3473] = {
         ['Horde'] = {
-            minBuyout = 6439,
-            marketValue = 6221,
+            minBuyout = 5097,
+            marketValue = 7253,
         },
         ['Alliance'] = {
-            minBuyout = 14999,
-            marketValue = 7202,
+            minBuyout = 6997,
+            marketValue = 8283,
         },
     },
     [3531] = {
         ['Horde'] = {
-            minBuyout = 210,
-            marketValue = 308,
+            minBuyout = 444,
+            marketValue = 231,
         },
         ['Alliance'] = {
-            minBuyout = 195,
-            marketValue = 207,
+            minBuyout = 191,
+            marketValue = 189,
         },
     },
     [3577] = {
         ['Horde'] = {
-            minBuyout = 2549,
-            marketValue = 3206,
+            minBuyout = 580,
+            marketValue = 2326,
         },
         ['Alliance'] = {
-            minBuyout = 1774,
-            marketValue = 2996,
+            minBuyout = 934,
+            marketValue = 2410,
         },
     },
     [3729] = {
         ['Horde'] = {
-            minBuyout = 749,
-            marketValue = 574,
+            minBuyout = 670,
+            marketValue = 633,
         },
         ['Alliance'] = {
-            minBuyout = 1327,
-            marketValue = 1326,
+            minBuyout = 995,
+            marketValue = 1429,
         },
     },
     [3818] = {
         ['Horde'] = {
-            minBuyout = 342,
-            marketValue = 471,
+            minBuyout = 802,
+            marketValue = 493,
         },
         ['Alliance'] = {
-            minBuyout = 488,
-            marketValue = 592,
+            minBuyout = 300,
+            marketValue = 480,
         },
     },
     [3819] = {
         ['Horde'] = {
-            minBuyout = 315,
-            marketValue = 937,
+            minBuyout = 1668,
+            marketValue = 1071,
         },
         ['Alliance'] = {
-            minBuyout = 1720,
-            marketValue = 886,
+            minBuyout = 361,
+            marketValue = 750,
         },
     },
     [3835] = {
         ['Horde'] = {
-            minBuyout = 6199,
-            marketValue = 6694,
+            minBuyout = 12979,
+            marketValue = 7861,
         },
         ['Alliance'] = {
-            minBuyout = 5700,
-            marketValue = 5418,
+            minBuyout = 6084,
+            marketValue = 5135,
         },
     },
     [3855] = {
         ['Horde'] = {
-            minBuyout = 40000,
-            marketValue = 46866,
+            minBuyout = 54969,
+            marketValue = 52444,
         },
         ['Alliance'] = {
-            minBuyout = 41355,
-            marketValue = 44039,
+            minBuyout = 68492,
+            marketValue = 50678,
         },
     },
     [3860] = {
         ['Horde'] = {
-            minBuyout = 1777,
-            marketValue = 2122,
+            minBuyout = 4899,
+            marketValue = 3086,
         },
         ['Alliance'] = {
-            minBuyout = 2000,
-            marketValue = 2549,
+            minBuyout = 5498,
+            marketValue = 3850,
         },
     },
     [4235] = {
         ['Horde'] = {
-            minBuyout = 410,
-            marketValue = 628,
+            minBuyout = 414,
+            marketValue = 523,
         },
         ['Alliance'] = {
-            minBuyout = 1100,
-            marketValue = 1159,
+            minBuyout = 794,
+            marketValue = 860,
         },
     },
     [4237] = {
         ['Horde'] = {
-            minBuyout = 2499,
-            marketValue = 2682,
+            minBuyout = 4995,
+            marketValue = 3082,
         },
         ['Alliance'] = {
-            minBuyout = 3465,
-            marketValue = 4322,
+            minBuyout = 9990,
+            marketValue = 3522,
         },
     },
     [4251] = {
         ['Horde'] = {
-            minBuyout = 2993,
-            marketValue = 1691,
+            minBuyout = 1480,
+            marketValue = 1682,
         },
         ['Alliance'] = {
-            minBuyout = 4966,
-            marketValue = 2162,
+            minBuyout = 1498,
+            marketValue = 2897,
         },
     },
     [4304] = {
         ['Horde'] = {
-            minBuyout = 632,
-            marketValue = 703,
+            minBuyout = 1999,
+            marketValue = 1091,
         },
         ['Alliance'] = {
-            minBuyout = 749,
-            marketValue = 819,
+            minBuyout = 3867,
+            marketValue = 1488,
         },
     },
     [4334] = {
         ['Horde'] = {
-            minBuyout = 4882,
-            marketValue = 3720,
+            minBuyout = 1500,
+            marketValue = 3754,
         },
         ['Alliance'] = {
-            minBuyout = 4778,
-            marketValue = 2190,
+            minBuyout = 8855,
+            marketValue = 5192,
         },
     },
     [4335] = {
         ['Horde'] = {
-            minBuyout = 8999,
-            marketValue = 12304,
+            minBuyout = 14797,
+            marketValue = 14347,
         },
         ['Alliance'] = {
-            minBuyout = 12181,
-            marketValue = 12887,
+            minBuyout = 10000,
+            marketValue = 11927,
         },
     },
     [4343] = {
         ['Horde'] = {
-            minBuyout = 1799,
-            marketValue = 1332,
+            minBuyout = 2997,
+            marketValue = 1494,
         },
         ['Alliance'] = {
-            minBuyout = 1767,
-            marketValue = 1036,
+            minBuyout = 1681,
+            marketValue = 1358,
         },
     },
     [4360] = {
         ['Horde'] = {
-            minBuyout = 286,
-            marketValue = 318,
+            minBuyout = 711,
+            marketValue = 393,
         },
         ['Alliance'] = {
-            minBuyout = 361,
-            marketValue = 661,
+            minBuyout = 713,
+            marketValue = 483,
         },
     },
     [4362] = {
         ['Horde'] = {
-            minBuyout = 2597,
-            marketValue = 3186,
+            minBuyout = 3996,
+            marketValue = 3190,
         },
         ['Alliance'] = {
-            minBuyout = 1549,
-            marketValue = 3887,
+            minBuyout = 3077,
+            marketValue = 5173,
         },
     },
     [4374] = {
         ['Horde'] = {
-            minBuyout = 1678,
-            marketValue = 1584,
+            minBuyout = 3367,
+            marketValue = 2191,
         },
         ['Alliance'] = {
-            minBuyout = 1544,
-            marketValue = 2056,
+            minBuyout = 2292,
+            marketValue = 2602,
         },
     },
     [4391] = {
         ['Horde'] = {
-            minBuyout = 21834,
-            marketValue = 21955,
+            minBuyout = 29900,
+            marketValue = 21808,
         },
         ['Alliance'] = {
-            minBuyout = 29587,
-            marketValue = 19191,
+            minBuyout = 27993,
+            marketValue = 29613,
         },
     },
     [4394] = {
         ['Horde'] = {
-            minBuyout = 1947,
-            marketValue = 1910,
+            minBuyout = 5961,
+            marketValue = 3778,
         },
         ['Alliance'] = {
-            minBuyout = 2983,
-            marketValue = 3091,
+            minBuyout = 7988,
+            marketValue = 5143,
         },
     },
     [5507] = {
         ['Horde'] = {
-            minBuyout = 6998,
-            marketValue = 8165,
+            minBuyout = 5699,
+            marketValue = 7397,
         },
         ['Alliance'] = {
-            minBuyout = 8799,
-            marketValue = 10528,
+            minBuyout = 7023,
+            marketValue = 8266,
         },
     },
     [5527] = {
         ['Horde'] = {
-            minBuyout = 1129,
-            marketValue = 430,
+            minBuyout = 710,
+            marketValue = 645,
         },
         ['Alliance'] = {
-            minBuyout = 225,
-            marketValue = 309,
+            minBuyout = 243,
+            marketValue = 258,
         },
     },
     [5542] = {
         ['Horde'] = {
-            minBuyout = 3999,
-            marketValue = 4723,
+            minBuyout = 8634,
+            marketValue = 7358,
         },
         ['Alliance'] = {
-            minBuyout = 4915,
-            marketValue = 2501,
+            minBuyout = 8000,
+            marketValue = 3689,
         },
     },
     [5964] = {
         ['Horde'] = {
-            minBuyout = 3496,
-            marketValue = 4188,
+            minBuyout = 3100,
+            marketValue = 5342,
         },
         ['Alliance'] = {
-            minBuyout = 4000,
-            marketValue = 5540,
+            minBuyout = 4999,
+            marketValue = 7882,
         },
     },
     [5966] = {
         ['Horde'] = {
-            minBuyout = 3390,
-            marketValue = 3861,
+            minBuyout = 5900,
+            marketValue = 6342,
         },
         ['Alliance'] = {
-            minBuyout = 4998,
-            marketValue = 5259,
+            minBuyout = 5424,
+            marketValue = 7688,
+        },
+    },
+    [6037] = {
+        ['Horde'] = {
+            minBuyout = 2790,
+            marketValue = 3646,
+        },
+        ['Alliance'] = {
+            minBuyout = 1899,
+            marketValue = 3692,
         },
     },
     [6238] = {
         ['Horde'] = {
-            minBuyout = 1996,
-            marketValue = 1359,
+            minBuyout = 1981,
+            marketValue = 1825,
         },
         ['Alliance'] = {
-            minBuyout = 1946,
-            marketValue = 1402,
+            minBuyout = 3573,
+            marketValue = 1867,
         },
     },
     [6290] = {
         ['Horde'] = {
-            minBuyout = 439,
-            marketValue = 507,
+            minBuyout = 2522,
+            marketValue = 581,
         },
         ['Alliance'] = {
-            minBuyout = 666,
-            marketValue = 931,
+            minBuyout = 3240,
+            marketValue = 1146,
         },
     },
     [6350] = {
         ['Horde'] = {
-            minBuyout = 7768,
-            marketValue = 5291,
+            minBuyout = 11993,
+            marketValue = 8539,
         },
         ['Alliance'] = {
-            minBuyout = 4794,
-            marketValue = 5624,
+            minBuyout = 6994,
+            marketValue = 7242,
         },
     },
     [6362] = {
         ['Horde'] = {
-            minBuyout = 59,
-            marketValue = 144,
+            minBuyout = 88,
+            marketValue = 90,
         },
         ['Alliance'] = {
-            minBuyout = 55,
-            marketValue = 159,
+            minBuyout = 50,
+            marketValue = 152,
         },
     },
     [6371] = {
         ['Horde'] = {
-            minBuyout = 2493,
-            marketValue = 2562,
+            minBuyout = 2996,
+            marketValue = 2872,
         },
         ['Alliance'] = {
-            minBuyout = 2358,
-            marketValue = 2609,
+            minBuyout = 4593,
+            marketValue = 2781,
         },
     },
     [6373] = {
         ['Horde'] = {
-            minBuyout = 5977,
-            marketValue = 5519,
+            minBuyout = 10999,
+            marketValue = 7030,
         },
         ['Alliance'] = {
-            minBuyout = 5322,
-            marketValue = 5456,
+            minBuyout = 14965,
+            marketValue = 7097,
         },
     },
     [6451] = {
         ['Horde'] = {
-            minBuyout = 467,
-            marketValue = 467,
+            minBuyout = 379,
+            marketValue = 459,
         },
         ['Alliance'] = {
-            minBuyout = 468,
-            marketValue = 477,
+            minBuyout = 599,
+            marketValue = 508,
         },
     },
     [6888] = {
         ['Horde'] = {
-            minBuyout = 2026,
-            marketValue = 2232,
+            minBuyout = 3691,
+            marketValue = 2558,
         },
         ['Alliance'] = {
-            minBuyout = 246,
-            marketValue = 557,
+            minBuyout = 697,
+            marketValue = 653,
         },
     },
     [7062] = {
         ['Horde'] = {
-            minBuyout = 7487,
-            marketValue = 5921,
+            minBuyout = 7498,
+            marketValue = 5406,
         },
         ['Alliance'] = {
-            minBuyout = 8498,
-            marketValue = 5287,
+            minBuyout = 4890,
+            marketValue = 6342,
         },
     },
     [7377] = {
         ['Horde'] = {
-            minBuyout = 10929,
-            marketValue = 10597,
+            minBuyout = 11991,
+            marketValue = 14881,
         },
         ['Alliance'] = {
-            minBuyout = 13879,
-            marketValue = 14537,
+            minBuyout = 25484,
+            marketValue = 15943,
         },
     },
     [7919] = {
         ['Horde'] = {
-            minBuyout = 23800,
-            marketValue = 23260,
+            minBuyout = 26063,
+            marketValue = 31227,
         },
         ['Alliance'] = {
-            minBuyout = 24066,
-            marketValue = 20122,
+            minBuyout = 13590,
+            marketValue = 21631,
+        },
+    },
+    [7931] = {
+        ['Horde'] = {
+            minBuyout = 69900,
+            marketValue = 72485,
+        },
+        ['Alliance'] = {
+            minBuyout = 74862,
+            marketValue = 53787,
+        },
+    },
+    [7938] = {
+        ['Horde'] = {
+            minBuyout = 139900,
+            marketValue = 122496,
+        },
+        ['Alliance'] = {
+            minBuyout = 0,
+            marketValue = 238734,
         },
     },
     [7966] = {
         ['Horde'] = {
-            minBuyout = 3113,
-            marketValue = 2493,
+            minBuyout = 8981,
+            marketValue = 3534,
         },
         ['Alliance'] = {
-            minBuyout = 6499,
-            marketValue = 3663,
+            minBuyout = 4888,
+            marketValue = 4208,
+        },
+    },
+    [8169] = {
+        ['Horde'] = {
+            minBuyout = 498,
+            marketValue = 990,
+        },
+        ['Alliance'] = {
+            minBuyout = 1089,
+            marketValue = 2845,
+        },
+    },
+    [8170] = {
+        ['Horde'] = {
+            minBuyout = 5846,
+            marketValue = 5846,
+        },
+        ['Alliance'] = {
+            minBuyout = 4310,
+            marketValue = 4902,
         },
     },
     [8198] = {
         ['Horde'] = {
-            minBuyout = 59999,
-            marketValue = 67085,
+            minBuyout = 62493,
+            marketValue = 78302,
         },
         ['Alliance'] = {
-            minBuyout = 84551,
-            marketValue = 75443,
+            minBuyout = 129989,
+            marketValue = 93690,
+        },
+    },
+    [8545] = {
+        ['Horde'] = {
+            minBuyout = 1917,
+            marketValue = 3945,
+        },
+        ['Alliance'] = {
+            minBuyout = 2896,
+            marketValue = 4683,
         },
     },
     [8831] = {
         ['Horde'] = {
-            minBuyout = 1880,
-            marketValue = 1348,
+            minBuyout = 698,
+            marketValue = 1126,
         },
         ['Alliance'] = {
-            minBuyout = 1312,
-            marketValue = 1235,
+            minBuyout = 904,
+            marketValue = 1205,
+        },
+    },
+    [8838] = {
+        ['Horde'] = {
+            minBuyout = 7586,
+            marketValue = 6963,
+        },
+        ['Alliance'] = {
+            minBuyout = 7897,
+            marketValue = 7725,
         },
     },
     [8949] = {
         ['Horde'] = {
-            minBuyout = 3819,
-            marketValue = 4303,
+            minBuyout = 7899,
+            marketValue = 5177,
         },
         ['Alliance'] = {
-            minBuyout = 4998,
-            marketValue = 5606,
+            minBuyout = 8495,
+            marketValue = 6237,
         },
     },
     [8951] = {
         ['Horde'] = {
-            minBuyout = 3817,
-            marketValue = 4686,
+            minBuyout = 4091,
+            marketValue = 5828,
         },
         ['Alliance'] = {
-            minBuyout = 7197,
-            marketValue = 7313,
+            minBuyout = 13470,
+            marketValue = 7538,
         },
     },
     [10008] = {
         ['Horde'] = {
-            minBuyout = 18980,
-            marketValue = 11490,
+            minBuyout = 21196,
+            marketValue = 14076,
         },
         ['Alliance'] = {
-            minBuyout = 15197,
-            marketValue = 15234,
+            minBuyout = 14938,
+            marketValue = 16065,
+        },
+    },
+    [10024] = {
+        ['Horde'] = {
+            minBuyout = 13252,
+            marketValue = 13960,
+        },
+        ['Alliance'] = {
+            minBuyout = 19299,
+            marketValue = 21725,
+        },
+    },
+    [10034] = {
+        ['Horde'] = {
+            minBuyout = 34994,
+            marketValue = 42080,
+        },
+        ['Alliance'] = {
+            minBuyout = 49569,
+            marketValue = 49818,
         },
     },
     [10508] = {
         ['Horde'] = {
-            minBuyout = 40000,
-            marketValue = 45509,
+            minBuyout = 64995,
+            marketValue = 53014,
         },
         ['Alliance'] = {
-            minBuyout = 43999,
-            marketValue = 44328,
+            minBuyout = 68878,
+            marketValue = 59199,
         },
     },
     [10546] = {
         ['Horde'] = {
-            minBuyout = 32993,
-            marketValue = 23546,
+            minBuyout = 19300,
+            marketValue = 28321,
         },
         ['Alliance'] = {
-            minBuyout = 28487,
-            marketValue = 23806,
+            minBuyout = 34893,
+            marketValue = 28223,
+        },
+    },
+    [10562] = {
+        ['Horde'] = {
+            minBuyout = 4881,
+            marketValue = 7011,
+        },
+        ['Alliance'] = {
+            minBuyout = 2273,
+            marketValue = 6520,
         },
     },
     [11287] = {
         ['Horde'] = {
-            minBuyout = 1399,
-            marketValue = 1606,
+            minBuyout = 2897,
+            marketValue = 1750,
         },
         ['Alliance'] = {
-            minBuyout = 920,
-            marketValue = 1473,
+            minBuyout = 1500,
+            marketValue = 1620,
+        },
+    },
+    [12359] = {
+        ['Horde'] = {
+            minBuyout = 7873,
+            marketValue = 29210,
+        },
+        ['Alliance'] = {
+            minBuyout = 10000,
+            marketValue = 18411,
+        },
+    },
+    [12406] = {
+        ['Horde'] = {
+            minBuyout = 199999,
+            marketValue = 361204,
+        },
+        ['Alliance'] = {
+            minBuyout = 249998,
+            marketValue = 392088,
+        },
+    },
+    [12655] = {
+        ['Horde'] = {
+            minBuyout = 55348,
+            marketValue = 86987,
+        },
+        ['Alliance'] = {
+            minBuyout = 49039,
+            marketValue = 72354,
+        },
+    },
+    [13443] = {
+        ['Horde'] = {
+            minBuyout = 25000,
+            marketValue = 17398,
+        },
+        ['Alliance'] = {
+            minBuyout = 20000,
+            marketValue = 22219,
+        },
+    },
+    [13446] = {
+        ['Horde'] = {
+            minBuyout = 15000,
+            marketValue = 28439,
+        },
+        ['Alliance'] = {
+            minBuyout = 19900,
+            marketValue = 22106,
+        },
+    },
+    [13463] = {
+        ['Horde'] = {
+            minBuyout = 4996,
+            marketValue = 10934,
+        },
+        ['Alliance'] = {
+            minBuyout = 6988,
+            marketValue = 18401,
+        },
+    },
+    [13856] = {
+        ['Horde'] = {
+            minBuyout = 21790,
+            marketValue = 49004,
+        },
+        ['Alliance'] = {
+            minBuyout = 35843,
+            marketValue = 41735,
+        },
+    },
+    [13931] = {
+        ['Horde'] = {
+            minBuyout = 8471,
+            marketValue = 4947,
+        },
+        ['Alliance'] = {
+            minBuyout = 15385,
+            marketValue = 8099,
+        },
+    },
+    [15084] = {
+        ['Horde'] = {
+            minBuyout = 64966,
+            marketValue = 82025,
+        },
+        ['Alliance'] = {
+            minBuyout = 54981,
+            marketValue = 88637,
+        },
+    },
+    [15092] = {
+        ['Horde'] = {
+            minBuyout = 82156,
+            marketValue = 129345,
+        },
+        ['Alliance'] = {
+            minBuyout = 85500,
+            marketValue = 99989,
+        },
+    },
+    [15564] = {
+        ['Horde'] = {
+            minBuyout = 24995,
+            marketValue = 98942,
+        },
+        ['Alliance'] = {
+            minBuyout = 21899,
+            marketValue = 91596,
         },
     },
     [15869] = {
         ['Horde'] = {
-            minBuyout = 383,
-            marketValue = 469,
+            minBuyout = 1984,
+            marketValue = 886,
         },
         ['Alliance'] = {
-            minBuyout = 983,
-            marketValue = 479,
+            minBuyout = 1049,
+            marketValue = 901,
+        },
+    },
+    [15993] = {
+        ['Horde'] = {
+            minBuyout = 139999,
+            marketValue = 124774,
+        },
+        ['Alliance'] = {
+            minBuyout = 57784,
+            marketValue = 84067,
+        },
+    },
+    [16766] = {
+        ['Horde'] = {
+            minBuyout = 684,
+            marketValue = 1781,
+        },
+        ['Alliance'] = {
+            minBuyout = 1910,
+            marketValue = 79976,
         },
     },
     [17222] = {
         ['Horde'] = {
-            minBuyout = 3040,
-            marketValue = 1694,
+            minBuyout = 1999,
+            marketValue = 1928,
         },
         ['Alliance'] = {
-            minBuyout = 6990,
-            marketValue = 4173,
+            minBuyout = 7691,
+            marketValue = 5590,
+        },
+    },
+    [18045] = {
+        ['Horde'] = {
+            minBuyout = 599,
+            marketValue = 1858,
+        },
+        ['Alliance'] = {
+            minBuyout = 4499,
+            marketValue = 3147,
         },
     },
     [20744] = {
         ['Horde'] = {
-            minBuyout = 2596,
-            marketValue = 1830,
+            minBuyout = 1928,
+            marketValue = 1876,
         },
         ['Alliance'] = {
-            minBuyout = 830,
-            marketValue = 3220,
+            minBuyout = 4443,
+            marketValue = 22038,
         },
     },
     [20745] = {
         ['Horde'] = {
-            minBuyout = 3012,
-            marketValue = 3333,
+            minBuyout = 7561,
+            marketValue = 5164,
         },
         ['Alliance'] = {
-            minBuyout = 7927,
-            marketValue = 4572,
+            minBuyout = 15500,
+            marketValue = 10385,
         },
     },
     [21072] = {
         ['Horde'] = {
-            minBuyout = 800,
-            marketValue = 1166,
+            minBuyout = 1495,
+            marketValue = 1161,
         },
         ['Alliance'] = {
-            minBuyout = 1141,
-            marketValue = 1397,
+            minBuyout = 6972,
+            marketValue = 2178,
+        },
+    },
+    [15995] = {
+        ['Horde'] = {
+            minBuyout = 300000,
+            marketValue = 300000,
         },
     },
 }
