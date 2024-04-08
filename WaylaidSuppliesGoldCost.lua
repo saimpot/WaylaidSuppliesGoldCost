@@ -943,7 +943,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[40]["givesRepUntil"]
     },
 
-    -- Level 45
+    -- Level 42
 
     -- Waylaid Supplies: Thick Hide
     -- @url https://www.wowhead.com/classic/item=220927/waylaid-supplies-thick-hide
@@ -1045,6 +1045,10 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[42]["experienceAwarded"],
         WaylaidRewardsInfo[42]["givesRepUntil"]
     },
+
+    -- Level 45
+    -- Level 50
+
 
     -- Add more entries here as needed
 }
