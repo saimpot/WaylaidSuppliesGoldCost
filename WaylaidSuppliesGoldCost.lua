@@ -103,31 +103,28 @@ local WaylaidRewardsInfo = {
         ["givesRepUntil"] = "Revered",
     },
 
-    -- quest info missing
-    -- values taken from: https://www.wowhead.com/classic/spell=449995/reputation-merchant-faction
-    [45] = {
+    -- https://www.wowhead.com/classic/quest=82307
+    [42] = {
         ["reputationAwarded"] = 950,
-        ["currencyAwarded"] = 120000, -- @TODO: Change. This value can not be confirmed until the patch is live.
+        ["currencyAwarded"] = 38500,
         ["experienceAwarded"] = 1700,
-        ["givesRepUntil"] = "Revered", -- @TODO: Change. This value can not be confirmed until the patch is live.
+        ["givesRepUntil"] = "Exalted",
     },
 
-    -- quest info missing
-    -- values taken from: https://www.wowhead.com/classic/spell=449996/reputation-merchant-faction
-    [48] = {
+    -- https://www.wowhead.com/classic/quest=82308
+    [45] = {
         ["reputationAwarded"] = 1300,
-        ["currencyAwarded"] = 120000, -- @TODO: Change. This value can not be confirmed until the patch is live.
+        ["currencyAwarded"] = 84500,
         ["experienceAwarded"] = 2850,
-        ["givesRepUntil"] = "Revered", -- @TODO: Change. This value can not be confirmed until the patch is live.
+        ["givesRepUntil"] = "Exalted",
     },
 
-    -- quest info missing
-    -- values taken from: https://www.wowhead.com/classic/spell=449997/reputation-merchant-faction
+    -- https://www.wowhead.com/classic/quest=82309
     [50] = {
         ["reputationAwarded"] = 1850,
-        ["currencyAwarded"] = 120000, -- @TODO: Change. This value can not be confirmed until the patch is live.
+        ["currencyAwarded"] = 154000,
         ["experienceAwarded"] = 4650,
-        ["givesRepUntil"] = "Revered", -- @TODO: Change. This value can not be confirmed until the patch is live.
+        ["givesRepUntil"] = "Exalted",
     },
 }
 
