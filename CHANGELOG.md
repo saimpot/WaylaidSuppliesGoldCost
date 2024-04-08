@@ -1,3 +1,6 @@
+### 1.5.2
+- Update interface version to 11502
+
 ### 1.5.1
 - Updated item database (08/04/2024)
 
