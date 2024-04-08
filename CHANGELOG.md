@@ -1,3 +1,6 @@
+## 1.5.0
+- Support for phase 3 of Season of Discovery
+
 ### 1.4.13
 - Updated item database (04/04/2024)
 
