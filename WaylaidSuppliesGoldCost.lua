@@ -950,60 +950,100 @@ local WaylaidSuppliesInfo = {
     [220927] = {
         8169,
         8,
-        WaylaidRewardsInfo[45]["reputationAwarded"],
-        WaylaidRewardsInfo[45]["currencyAwarded"],
-        WaylaidRewardsInfo[45]["experienceAwarded"],
-        WaylaidRewardsInfo[45]["givesRepUntil"]
+        WaylaidRewardsInfo[42]["reputationAwarded"],
+        WaylaidRewardsInfo[42]["currencyAwarded"],
+        WaylaidRewardsInfo[42]["experienceAwarded"],
+        WaylaidRewardsInfo[42]["givesRepUntil"]
     },
     -- Waylaid Supplies: Rugged Leather
     -- @url https://www.wowhead.com/classic/item=220926/waylaid-supplies-rugged-leather
     [220926] = {
         8170,
         14,
-        WaylaidRewardsInfo[45]["reputationAwarded"],
-        WaylaidRewardsInfo[45]["currencyAwarded"],
-        WaylaidRewardsInfo[45]["experienceAwarded"],
-        WaylaidRewardsInfo[45]["givesRepUntil"]
+        WaylaidRewardsInfo[42]["reputationAwarded"],
+        WaylaidRewardsInfo[42]["currencyAwarded"],
+        WaylaidRewardsInfo[42]["experienceAwarded"],
+        WaylaidRewardsInfo[42]["givesRepUntil"]
     },
     -- Waylaid Supplies: Thorium Bars
     -- @url https://www.wowhead.com/classic/item=220925/waylaid-supplies-thorium-bars
     [220925] = {
         12359,
         16,
-        WaylaidRewardsInfo[45]["reputationAwarded"],
-        WaylaidRewardsInfo[45]["currencyAwarded"],
-        WaylaidRewardsInfo[45]["experienceAwarded"],
-        WaylaidRewardsInfo[45]["givesRepUntil"]
+        WaylaidRewardsInfo[42]["reputationAwarded"],
+        WaylaidRewardsInfo[42]["currencyAwarded"],
+        WaylaidRewardsInfo[42]["experienceAwarded"],
+        WaylaidRewardsInfo[42]["givesRepUntil"]
     },
     -- Waylaid Supplies: Truesilver Bars
     -- @url https://www.wowhead.com/classic/item=220924/waylaid-supplies-truesilver-bars
     [220924] = {
         6037,
         12,
-        WaylaidRewardsInfo[45]["reputationAwarded"],
-        WaylaidRewardsInfo[45]["currencyAwarded"],
-        WaylaidRewardsInfo[45]["experienceAwarded"],
-        WaylaidRewardsInfo[45]["givesRepUntil"]
+        WaylaidRewardsInfo[42]["reputationAwarded"],
+        WaylaidRewardsInfo[42]["currencyAwarded"],
+        WaylaidRewardsInfo[42]["experienceAwarded"],
+        WaylaidRewardsInfo[42]["givesRepUntil"]
     },
     -- Waylaid Supplies: Dreamfoil
     -- @url https://www.wowhead.com/classic/item=220923/waylaid-supplies-dreamfoil
     [220923] = {
         13463,
         6,
-        WaylaidRewardsInfo[45]["reputationAwarded"],
-        WaylaidRewardsInfo[45]["currencyAwarded"],
-        WaylaidRewardsInfo[45]["experienceAwarded"],
-        WaylaidRewardsInfo[45]["givesRepUntil"]
+        WaylaidRewardsInfo[42]["reputationAwarded"],
+        WaylaidRewardsInfo[42]["currencyAwarded"],
+        WaylaidRewardsInfo[42]["experienceAwarded"],
+        WaylaidRewardsInfo[42]["givesRepUntil"]
     },
     -- Waylaid Supplies: Sungrass
     -- @url https://www.wowhead.com/classic/item=220922/waylaid-supplies-dreamfoil
     [220922] = {
         8838,
         15,
-        WaylaidRewardsInfo[45]["reputationAwarded"],
-        WaylaidRewardsInfo[45]["currencyAwarded"],
-        WaylaidRewardsInfo[45]["experienceAwarded"],
-        WaylaidRewardsInfo[45]["givesRepUntil"]
+        WaylaidRewardsInfo[42]["reputationAwarded"],
+        WaylaidRewardsInfo[42]["currencyAwarded"],
+        WaylaidRewardsInfo[42]["experienceAwarded"],
+        WaylaidRewardsInfo[42]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Nightfin Soup
+    -- @url https://www.wowhead.com/classic/item=220919/waylaid-supplies-nightfin-soup
+    [220919] = {
+        13931,
+        8,
+        WaylaidRewardsInfo[42]["reputationAwarded"],
+        WaylaidRewardsInfo[42]["currencyAwarded"],
+        WaylaidRewardsInfo[42]["experienceAwarded"],
+        WaylaidRewardsInfo[42]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Heavy Mageweave Bandages
+    -- @url https://www.wowhead.com/classic/item=220921/waylaid-supplies-heavy-mageweave-bandages
+    [220921] = {
+        8545,
+        14,
+        WaylaidRewardsInfo[42]["reputationAwarded"],
+        WaylaidRewardsInfo[42]["currencyAwarded"],
+        WaylaidRewardsInfo[42]["experienceAwarded"],
+        WaylaidRewardsInfo[42]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Tender Wolf Steaks
+    -- @url https://www.wowhead.com/classic/item=220920/waylaid-supplies-tender-wolf-steaks
+    [220920] = {
+        18045,
+        12,
+        WaylaidRewardsInfo[42]["reputationAwarded"],
+        WaylaidRewardsInfo[42]["currencyAwarded"],
+        WaylaidRewardsInfo[42]["experienceAwarded"],
+        WaylaidRewardsInfo[42]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Undermine Clam Chowder
+    -- @url https://www.wowhead.com/classic/item=220918/waylaid-supplies-undermine-clam-chowder
+    [220918] = {
+        16766,
+        16,
+        WaylaidRewardsInfo[42]["reputationAwarded"],
+        WaylaidRewardsInfo[42]["currencyAwarded"],
+        WaylaidRewardsInfo[42]["experienceAwarded"],
+        WaylaidRewardsInfo[42]["givesRepUntil"]
     },
 
     -- Add more entries here as needed
