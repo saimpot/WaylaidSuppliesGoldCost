@@ -946,7 +946,7 @@ local WaylaidSuppliesInfo = {
     -- Level 42
 
     -- Waylaid Supplies: Thick Hide
-    -- @url https://www.wowhead.com/classic/item=220927/waylaid-supplies-thick-hide
+    -- @url https://www.wowhead.com/classic/item=220927/
     [220927] = {
         8169,
         8,
@@ -956,7 +956,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[42]["givesRepUntil"]
     },
     -- Waylaid Supplies: Rugged Leather
-    -- @url https://www.wowhead.com/classic/item=220926/waylaid-supplies-rugged-leather
+    -- @url https://www.wowhead.com/classic/item=220926/
     [220926] = {
         8170,
         14,
@@ -966,7 +966,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[42]["givesRepUntil"]
     },
     -- Waylaid Supplies: Thorium Bars
-    -- @url https://www.wowhead.com/classic/item=220925/waylaid-supplies-thorium-bars
+    -- @url https://www.wowhead.com/classic/item=220925/
     [220925] = {
         12359,
         16,
@@ -976,7 +976,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[42]["givesRepUntil"]
     },
     -- Waylaid Supplies: Truesilver Bars
-    -- @url https://www.wowhead.com/classic/item=220924/waylaid-supplies-truesilver-bars
+    -- @url https://www.wowhead.com/classic/item=220924/
     [220924] = {
         6037,
         12,
@@ -986,7 +986,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[42]["givesRepUntil"]
     },
     -- Waylaid Supplies: Dreamfoil
-    -- @url https://www.wowhead.com/classic/item=220923/waylaid-supplies-dreamfoil
+    -- @url https://www.wowhead.com/classic/item=220923/
     [220923] = {
         13463,
         6,
@@ -996,7 +996,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[42]["givesRepUntil"]
     },
     -- Waylaid Supplies: Sungrass
-    -- @url https://www.wowhead.com/classic/item=220922/waylaid-supplies-dreamfoil
+    -- @url https://www.wowhead.com/classic/item=220922/
     [220922] = {
         8838,
         15,
@@ -1006,7 +1006,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[42]["givesRepUntil"]
     },
     -- Waylaid Supplies: Nightfin Soup
-    -- @url https://www.wowhead.com/classic/item=220919/waylaid-supplies-nightfin-soup
+    -- @url https://www.wowhead.com/classic/item=220919/
     [220919] = {
         13931,
         8,
@@ -1016,7 +1016,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[42]["givesRepUntil"]
     },
     -- Waylaid Supplies: Heavy Mageweave Bandages
-    -- @url https://www.wowhead.com/classic/item=220921/waylaid-supplies-heavy-mageweave-bandages
+    -- @url https://www.wowhead.com/classic/item=220921/
     [220921] = {
         8545,
         14,
@@ -1026,7 +1026,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[42]["givesRepUntil"]
     },
     -- Waylaid Supplies: Tender Wolf Steaks
-    -- @url https://www.wowhead.com/classic/item=220920/waylaid-supplies-tender-wolf-steaks
+    -- @url https://www.wowhead.com/classic/item=220920/
     [220920] = {
         18045,
         12,
@@ -1036,7 +1036,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[42]["givesRepUntil"]
     },
     -- Waylaid Supplies: Undermine Clam Chowder
-    -- @url https://www.wowhead.com/classic/item=220918/waylaid-supplies-undermine-clam-chowder
+    -- @url https://www.wowhead.com/classic/item=220918/
     [220918] = {
         16766,
         16,
@@ -1049,7 +1049,7 @@ local WaylaidSuppliesInfo = {
     -- Level 45
 
     -- Waylaid Supplies: Tuxedo Shirts
-    -- @url https://www.wowhead.com/classic/item=220942/waylaid-supplies-tuxedo-shirts
+    -- @url https://www.wowhead.com/classic/item=220942/
     [220942] = {
         10034,
         4,
@@ -1059,7 +1059,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[45]["givesRepUntil"]
     },
     -- Waylaid Supplies: Black Mageweave Headbands
-    -- @url https://www.wowhead.com/classic/item=220940/waylaid-supplies-black-mageweave-headbands
+    -- @url https://www.wowhead.com/classic/item=220940/
     [220940] = {
         10024,
         5,
@@ -1069,7 +1069,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[45]["givesRepUntil"]
     },
     -- Waylaid Supplies: Wicked Leather Bracers
-    -- @url https://www.wowhead.com/classic/item=220938/waylaid-supplies-wicked-leather-bracers
+    -- @url https://www.wowhead.com/classic/item=220938/
     [220938] = {
         15084,
         6,
@@ -1079,7 +1079,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[45]["givesRepUntil"]
     },
     -- Waylaid Supplies: Mithril Coifs
-    -- @url https://www.wowhead.com/classic/item=220934/waylaid-supplies-mithril-coifs
+    -- @url https://www.wowhead.com/classic/item=220934/
     [220934] = {
         7931,
         3,
@@ -1089,7 +1089,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[45]["givesRepUntil"]
     },
     -- Waylaid Supplies: Rugged Armor Kits
-    -- @url https://www.wowhead.com/classic/item=220937/waylaid-supplies-rugged-armor-kits
+    -- @url https://www.wowhead.com/classic/item=220937/
     [220937] = {
         15564,
         12,
@@ -1099,7 +1099,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[45]["givesRepUntil"]
     },
     -- Waylaid Supplies: Enchanted Thorium Bars
-    -- @url https://www.wowhead.com/classic/item=220928/waylaid-supplies-enchanted-thorium-bars
+    -- @url https://www.wowhead.com/classic/item=220928/
     [220928] = {
         12655,
         4,
@@ -1109,7 +1109,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[45]["givesRepUntil"]
     },
     -- Waylaid Supplies: Thorium Grenades
-    -- @url https://www.wowhead.com/classic/item=220932/waylaid-supplies-thorium-grenades
+    -- @url https://www.wowhead.com/classic/item=220932/
     [220932] = {
         15993,
         3,
@@ -1119,7 +1119,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[45]["givesRepUntil"]
     },
     -- Waylaid Supplies: Hi-Explosive Bombs
-    -- @url https://www.wowhead.com/classic/item=220931/waylaid-supplies-hi-explosive-bombs
+    -- @url https://www.wowhead.com/classic/item=220931/
     [220931] = {
         10562,
         16,
@@ -1129,7 +1129,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[45]["givesRepUntil"]
     },
     -- Waylaid Supplies: Major Healing Potions
-    -- @url https://www.wowhead.com/classic/item=220930/waylaid-supplies-major-healing-potions
+    -- @url https://www.wowhead.com/classic/item=220930/
     [220930] = {
         13446,
         8,
@@ -1139,7 +1139,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[45]["givesRepUntil"]
     },
     -- Waylaid Supplies: Superior Mana Potions
-    -- @url https://www.wowhead.com/classic/item=220929/waylaid-supplies-superior-mana-potions
+    -- @url https://www.wowhead.com/classic/item=220929/
     [220929] = {
         13443,
         6,
@@ -1149,7 +1149,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[45]["givesRepUntil"]
     },
     -- Waylaid Supplies: Thorium Belts
-    -- @url https://www.wowhead.com/classic/item=220935/waylaid-supplies-thorium-belts
+    -- @url https://www.wowhead.com/classic/item=220935/
     [220935] = {
         12406,
         5,
@@ -1162,7 +1162,7 @@ local WaylaidSuppliesInfo = {
     -- Level 50
 
     -- Waylaid Supplies: Runecloth Belt
-    -- @url https://www.wowhead.com/classic/item=220941/waylaid-supplies-runecloth-belts
+    -- @url https://www.wowhead.com/classic/item=220941/
     [220941] = {
         13856,
         6,
@@ -1172,7 +1172,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[50]["givesRepUntil"]
     },
     -- Waylaid Supplies: Truesilver Gauntlets
-    -- @url https://www.wowhead.com/classic/item=220936/waylaid-supplies-truesilver-gauntlets
+    -- @url https://www.wowhead.com/classic/item=220936/
     [220936] = {
         7938,
         2,
@@ -1182,7 +1182,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[50]["givesRepUntil"]
     },
     -- Waylaid Supplies: Runic Leather Bracers
-    -- @url https://www.wowhead.com/classic/item=220939/waylaid-supplies-runic-leather-bracers
+    -- @url https://www.wowhead.com/classic/item=220939/
     [220939] = {
         15092,
         5,
@@ -1192,7 +1192,7 @@ local WaylaidSuppliesInfo = {
         WaylaidRewardsInfo[50]["givesRepUntil"]
     },
     -- Waylaid Supplies: Thorium Rifles
-    -- @url https://www.wowhead.com/classic/item=220933/waylaid-supplies-thorium-rifles
+    -- @url https://www.wowhead.com/classic/item=220933/
     [220933] = {
         15995,
         2,
