@@ -1048,15 +1048,115 @@ local WaylaidSuppliesInfo = {
 
     -- Level 45
 
-    -- Waylaid Supplies: Undermine Clam Chowder
-    -- @url https://www.wowhead.com/classic/item=220918/waylaid-supplies-undermine-clam-chowder
-    [220918] = {
-        16766,
+    -- Waylaid Supplies: Tuxedo Shirts
+    -- @url https://www.wowhead.com/classic/item=220942/waylaid-supplies-tuxedo-shirts
+    [220942] = {
+        10034,
+        4,
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Black Mageweave Headbands
+    -- @url https://www.wowhead.com/classic/item=220940/waylaid-supplies-black-mageweave-headbands
+    [220940] = {
+        10024,
+        5,
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Wicked Leather Bracers
+    -- @url https://www.wowhead.com/classic/item=220938/waylaid-supplies-wicked-leather-bracers
+    [220938] = {
+        15084,
+        6,
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Mithril Coifs
+    -- @url https://www.wowhead.com/classic/item=220934/waylaid-supplies-mithril-coifs
+    [220934] = {
+        7931,
+        3,
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Rugged Armor Kits
+    -- @url https://www.wowhead.com/classic/item=220937/waylaid-supplies-rugged-armor-kits
+    [220937] = {
+        15564,
+        12,
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Enchanted Thorium Bars
+    -- @url https://www.wowhead.com/classic/item=220928/waylaid-supplies-enchanted-thorium-bars
+    [220928] = {
+        12655,
+        4,
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Thorium Grenades
+    -- @url https://www.wowhead.com/classic/item=220932/waylaid-supplies-thorium-grenades
+    [220932] = {
+        15993,
+        3,
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Hi-Explosive Bombs
+    -- @url https://www.wowhead.com/classic/item=220931/waylaid-supplies-hi-explosive-bombs
+    [220931] = {
+        10562,
         16,
-        WaylaidRewardsInfo[42]["reputationAwarded"],
-        WaylaidRewardsInfo[42]["currencyAwarded"],
-        WaylaidRewardsInfo[42]["experienceAwarded"],
-        WaylaidRewardsInfo[42]["givesRepUntil"]
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Major Healing Potions
+    -- @url https://www.wowhead.com/classic/item=220930/waylaid-supplies-major-healing-potions
+    [220930] = {
+        13446,
+        8,
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Superior Mana Potions
+    -- @url https://www.wowhead.com/classic/item=220929/waylaid-supplies-superior-mana-potions
+    [220929] = {
+        13443,
+        6,
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Thorium Belts
+    -- @url https://www.wowhead.com/classic/item=220935/waylaid-supplies-thorium-belts
+    [220935] = {
+        12406,
+        5,
+        WaylaidRewardsInfo[45]["reputationAwarded"],
+        WaylaidRewardsInfo[45]["currencyAwarded"],
+        WaylaidRewardsInfo[45]["experienceAwarded"],
+        WaylaidRewardsInfo[45]["givesRepUntil"]
     },
 
     -- Level 50
