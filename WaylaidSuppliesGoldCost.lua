@@ -1047,8 +1047,60 @@ local WaylaidSuppliesInfo = {
     },
 
     -- Level 45
+
+    -- Waylaid Supplies: Undermine Clam Chowder
+    -- @url https://www.wowhead.com/classic/item=220918/waylaid-supplies-undermine-clam-chowder
+    [220918] = {
+        16766,
+        16,
+        WaylaidRewardsInfo[42]["reputationAwarded"],
+        WaylaidRewardsInfo[42]["currencyAwarded"],
+        WaylaidRewardsInfo[42]["experienceAwarded"],
+        WaylaidRewardsInfo[42]["givesRepUntil"]
+    },
+
     -- Level 50
 
+    -- Waylaid Supplies: Runecloth Belt
+    -- @url https://www.wowhead.com/classic/item=220941/waylaid-supplies-runecloth-belts
+    [220941] = {
+        13856,
+        6,
+        WaylaidRewardsInfo[50]["reputationAwarded"],
+        WaylaidRewardsInfo[50]["currencyAwarded"],
+        WaylaidRewardsInfo[50]["experienceAwarded"],
+        WaylaidRewardsInfo[50]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Truesilver Gauntlets
+    -- @url https://www.wowhead.com/classic/item=220936/waylaid-supplies-truesilver-gauntlets
+    [220936] = {
+        7938,
+        2,
+        WaylaidRewardsInfo[50]["reputationAwarded"],
+        WaylaidRewardsInfo[50]["currencyAwarded"],
+        WaylaidRewardsInfo[50]["experienceAwarded"],
+        WaylaidRewardsInfo[50]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Runic Leather Bracers
+    -- @url https://www.wowhead.com/classic/item=220939/waylaid-supplies-runic-leather-bracers
+    [220939] = {
+        15092,
+        5,
+        WaylaidRewardsInfo[50]["reputationAwarded"],
+        WaylaidRewardsInfo[50]["currencyAwarded"],
+        WaylaidRewardsInfo[50]["experienceAwarded"],
+        WaylaidRewardsInfo[50]["givesRepUntil"]
+    },
+    -- Waylaid Supplies: Thorium Rifles
+    -- @url https://www.wowhead.com/classic/item=220933/waylaid-supplies-thorium-rifles
+    [220933] = {
+        15995,
+        2,
+        WaylaidRewardsInfo[50]["reputationAwarded"],
+        WaylaidRewardsInfo[50]["currencyAwarded"],
+        WaylaidRewardsInfo[50]["experienceAwarded"],
+        WaylaidRewardsInfo[50]["givesRepUntil"]
+    },
 
     -- Add more entries here as needed
 }
