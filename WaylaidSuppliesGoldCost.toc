@@ -1,4 +1,4 @@
-## Interface: 11501
+## Interface: 11502
 ## Title: |cffc06205WaylaidSupplies|r|cffffbf00Gold|r|cffc06205Cost|r
 ## Notes: Shows fill price for Waylaid Supplies items. Supports Auctionator and TradeSkillMaster.
 ## Author: Gressil
