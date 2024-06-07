@@ -4,7 +4,7 @@
 ## Author: Gressil
 ## SavedVariables: WaylaidSuppliesGoldCostDB
 ## OptionalDeps: TradeSkillMaster, Auctionator
-## Version: 1.5.4
+## Version: 1.5.5
 
 ItemDB\Chaos Bolt-EU_DB.lua
 ItemDB\Chaos Bolt-US_DB.lua
