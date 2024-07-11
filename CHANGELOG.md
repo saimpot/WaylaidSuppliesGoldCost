@@ -1,3 +1,6 @@
+### 1.5.6
+- Updated item database (11/07/2024)
+
 ### 1.5.5
 - Updated item database (07/06/2024)
 
