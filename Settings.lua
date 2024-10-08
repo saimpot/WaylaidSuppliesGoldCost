@@ -135,7 +135,12 @@ local function UpdateCheckboxStates()
 end
 
 optionsPanel:SetScript("OnShow", UpdateCheckboxStates)
-InterfaceOptions_AddCategory(optionsPanel)
+if InterfaceOptions_AddCategory then
+    InterfaceOptions_AddCategory(optionsPanel)
+else
+    local category, layout = _G.Settings.RegisterCanvasLayoutCategory(optionsPanel, optionsPanel.name)
+    _G.Settings.RegisterAddOnCategory(category)
+end
 
 SLASH_WSGC1 = "/wsgc"
 SLASH_WSGC2 = "/waylaidsupplies"
